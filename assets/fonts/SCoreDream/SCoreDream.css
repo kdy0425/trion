@@ -1,0 +1,48 @@
+@font-face {
+font-family: "SCoreDream";
+font-weight: 800;
+font-display: swap;
+src: local("SCDream8"), url("./SCDream8.woff2") format("woff2"),
+    url("./SCDream8.woff") format("woff");
+}
+
+@font-face {
+font-family: "SCoreDream";
+font-weight: 700;
+font-display: swap;
+src: local("SCDream7"), url("./SCDream7.woff2") format("woff2"),
+    url("./SCDream7.woff") format("woff");
+}
+
+@font-face {
+font-family: "SCoreDream";
+font-weight: 600;
+font-display: swap;
+src: local("SCDream6"), url("./SCDream6.woff2") format("woff2"),
+    url("./SCDream6.woff") format("woff");
+}
+
+@font-face {
+font-family: "SCoreDream";
+font-weight: 500;
+font-display: swap;
+src: local("SCDream5"), url("./SCDream5.woff2") format("woff2"),
+    url("./SCDream5.woff") format("woff");
+}
+
+@font-face {
+font-family: "SCoreDream";
+font-weight: 400;
+font-display: swap;
+src: local("SCDream4"), url("./SCDream4.woff2") format("woff2"),
+    url("./SCDream4.woff") format("woff");
+}
+
+@font-face {
+font-family: "SCoreDream";
+font-weight: 300;
+font-display: swap;
+src: local("SCDream4"), url("./SCDream3.woff2") format("woff2"),
+    url("./SCDream3.woff") format("woff");
+}
+    
