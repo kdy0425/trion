@@ -321,37 +321,3 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("resize", checkMode);
   checkMode();
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-  var titles = document.querySelectorAll(".main_section .main_title");
-  if (!titles.length) return;
-
-  var revealClass = "scroll_reveal";
-  var visibleClass = "is_visible";
-
-  titles.forEach(function (title) {
-    title.classList.add(revealClass);
-  });
-
-  if (typeof IntersectionObserver === "undefined") {
-    titles.forEach(function (title) {
-      title.classList.add(visibleClass);
-    });
-    return;
-  }
-
-  var observer = new IntersectionObserver(function (entries, obs) {
-    entries.forEach(function (entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add(visibleClass);
-        obs.unobserve(entry.target);
-      }
-    });
-  }, {
-    threshold: 0.7
-  });
-
-  titles.forEach(function (title) {
-    observer.observe(title);
-  });
-});
