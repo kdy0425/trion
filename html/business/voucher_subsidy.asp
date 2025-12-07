@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="referrer" content="always">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,viewport-fit:cover">
+    <!-- No cache -->
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+    <!-- Summary -->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+    <title>트라이언소프트</title>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/content.css" />
+    <link rel="stylesheet" href="../../assets/css/splide.min.css">
+    <script src="../../assets/js/splide.min.js"></script>
+    <script src="../../assets/js/splide-extension-grid.min.js"></script>
+</head>
+
+<body>
+
+    <!-- wrap -->
+    <div id="layout">
+        <h1 id="header_h1">트라이언소프트</h1>
+        <div id="skip_to_container">
+            <!-- skip navigation -->
+            <a href="#content">내용 바로가기</a>
+            <a href="#nav">서비스메뉴 바로가기</a>
+        </div>
+        <hr class="hide" />
+
+        <!-- header -->
+        <div id="header">
+            <div class="header_inner">
+                <div id="logo">
+                    <a href="javascript:;"><img src="../../assets/images/common/logo.png" alt="TRIONSOFT" /></a>
+                </div>
+                <ul id="nav">
+                    <li>
+                        <a href="javascript:;">Company</a>
+                        <ul>
+                            <li><a href="../company/company.html">회사소개</a></li>
+                            <li><a href="../company/partners.html">협력사</a></li>
+                            <li><a href="../company/recruit.html">채용안내</a></li>
+                            <li><a href="../company/location.html">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">Business</a>
+                        <ul>
+                            <li><a href="ai_bigdata.html">AI/Bigdata</a></li>
+                            <li><a href="digital_finance.html">디지털 금융</a></li>
+                            <li><a href="voucher_subsidy.html" class="active">바우처/보조금</a>
+                            </li>
+                            <li><a href="isp_bpr.html">ISP/BPR</a></li>
+                            <li><a href="system_integration.html">시스템통합</a></li>
+                            <li><a href="industry_specialization.html">산업별 특화</a></li>
+                            <li><a href="happiness_mall.html">국민행복몰</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">Solution</a>
+                        <ul>
+                            <li><a href="../solution/ai.html">AI</a></li>
+                            <li><a href="../solution/blockchain.html">Blockchain</a></li>
+                            <li><a href="../solution/treasury_subsidy.html">국고 보조금 관리시스템</a>
+                            </li>
+                            <li><a href="../solution/foreign_subsidy.html">유가보조금 관리시스템</a>
+                            </li>
+                            <li><a href="../solution/fuel_rfid.html">주유 RFID 관리시스템</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">Contact Us</a>
+                        <ul>
+                            <li><a href="../contact/contact.html">문의하기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="hd_right">
+                    <div class="hd_language">
+                        <div class="item"><a href="javascript:;" class="active">KR</a></div>
+                        <div class="item"><a href="javascript:;">EN</a></div>
+                    </div>
+                    <button type="button" id="nav_all_button">
+                        <strong></strong>
+                        <strong></strong>
+                        <strong></strong>
+                        <span class="sound_only">전체메뉴</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- //header -->
+
+        <!-- 전체메뉴 -->
+        <div id="nav_all_wrap">
+            <ul>
+                <li>
+                    <a href="javascript:;" class="arrow"><span>Company</span></a>
+                    <ul>
+                        <li><a href="../company/company.html">회사소개</a></li>
+                        <li><a href="../company/partners.html">협력사</a></li>
+                        <li><a href="../company/recruit.html">채용안내</a></li>
+                        <li><a href="../company/location.html">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="arrow"><span>Business</span></a>
+                    <ul>
+                        <li><a href="ai_bigdata.html">AI/Bigdata</a></li>
+                        <li><a href="digital_finance.html">디지털 금융</a></li>
+                        <li><a href="voucher_subsidy.html" class="active">바우처/보조금</a></li>
+                        <li><a href="isp_bpr.html">ISP/BPR</a></li>
+                        <li><a href="system_integration.html">시스템통합</a></li>
+                        <li><a href="industry_specialization.html">산업별 특화</a></li>
+                        <li><a href="happiness_mall.html">국민행복몰</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="arrow"><span>Solution</span></a>
+                    <ul>
+                        <li><a href="../solution/ai.html">AI</a>
+                            <ul>
+                                <li><a href="javascript:;">AI융합 EAI 솔루션</a></li>
+                                <li><a href="javascript:;">TS GenAI Gateway </a></li>
+                                <li><a href="javascript:;">TS AI Chatbot</a></li>
+                                <li><a href="javascript:;">TS AI Visons SR</a></li>
+                                <li><a href="javascript:;">TS AI Visons 검사</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../solution/blockchain.html">Blockchain</a>
+                            <ul>
+                                <li><a href="javascript:;">TS Wallet</a></li>
+                                <li><a href="javascript:;">TS Coin</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../solution/treasury_subsidy.html">국고 보조금 관리시스템</a></li>
+                        <li><a href="../solution/foreign_subsidy.html">유가보조금 관리시스템</a></li>
+                        <li><a href="../solution/fuel_rfid.html">주유 RFID 관리시스템</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="arrow"><span>Contact Us</span></a>
+                    <ul>
+                        <li><a href="../contact/contact.html">문의하기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sub_top">
+            <div class="page_location scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_3">
+                <div class="item"> <a href="javascript:;" class="home">홈으로</a> </div>
+                <div class="item"> <a href="javascript:;">Business</a> </div>
+                <div class="item"> <a href="javascript:;">바우처/보조금</a> </div>
+            </div>
+            <h2 class="scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_5">바우처/보조금</h2>
+
+            <div class="local_nav">
+                <div class="item"><a href="ai_bigdata.html"><span>AI/Bigdata</span></a></div>
+                <div class="item"><a href="digital_finance.html"><span>디지털 금융</span></a></div>
+                <div class="item active"><a href="voucher_subsidy.html" class="active"><span>바우처/보조금</span></a></div>
+                <div class="item"><a href="isp_bpr.html"><span>ISP/BPR</span></a></div>
+                <div class="item"><a href="system_integration.html"><span>시스템 통합</span></a></div>
+                <div class="item"><a href="industry_specialization.html"><span>산업별 특화</span></a></div>
+                <div class="item"><a href="happiness_mall.html"><span>국민행복몰</span></a></div>
+            </div>
+        </div>
+
+        <div class="mobile_tab_nav">
+            <div class="item home"><a href="javascript:;">홈으로</a></div>
+            <div class="item">
+                <a href="javascript:;"><span>Business</span></a>
+                <ul>
+                    <li><a href="../company/company.html">Company</a></li>
+                    <li><a href="../main/main.html" class="active">Business</a></li>
+                    <li><a href="../solution/ai.html">Solution</a></li>
+                    <li><a href="../solution/blockchain.html">Blockchain</a></li>
+                    <li><a href="../contact/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <a href="javascript:;"><span>바우처/보조금</span></a>
+                <ul>
+                    <li><a href="ai_bigdata.html">AI/Bigdata</a></li>
+                    <li><a href="digital_finance.html">디지털 금융</a></li>
+                    <li><a href="voucher_subsidy.html" class="active">바우처/보조금</a></li>
+                    <li><a href="isp_bpr.html">ISP/BPR</a></li>
+                    <li><a href="system_integration.html">시스템 통합</a></li>
+                    <li><a href="industry_specialization.html">산업별 특화</a></li>
+                    <li><a href="happiness_mall.html">국민행복몰</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div id="content" class="sub_content">
+            <div class="business_title_visual">
+                <div class="container scroll_reveal to_right show_center">
+                    <div class="cate">바우처/보조금</div>
+                    <div class="title">공공 바우처와 금융 네트워크를 잇는 디지털 혁신, <br  class="pc"/> 트라이언소프트가 열었습니다.</div>
+                    <p>공공과 금융을 연결하는 새로운 길, 트라이언소프트가 열어갑니다.<br /> 지자체와 공공기관이 추진하는 바우처 사업이 현장에서 실질적인 성과를 낼 수 있도록<br class="pc" /> 기획·컨설팅부터 운영·모니터링까지 전 과정을 지원합니다.</p>
+                    <div class="keyword">
+                        <div class="item">#정부지원사업</div>
+                        <div class="item">#공공바우처</div>
+                        <div class="item">#보조금혜택</div>
+                    </div>
+                </div>
+                <div class="bg bg_voucher scroll_reveal to_left show_center"
+                    style="background-image: url(../../assets/images/content/business_voucher_subsidy_bg.jpg);">
+                </div>
+            </div>
+
+            <div class="sub_section scroll_reveal to_bottom show_center">
+                <div class="container">
+                    <div class="title_sub">
+                        <h4>트라이언소프트의 기술 영역</h4>
+                    </div>
+                    <div class="gray_cards">
+                        <div class="item">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M73.459 9H26.1926C22.4699 9 19.459 12.0266 19.459 15.7504V17.2022V82H54.2317" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M27.459 23H56.459" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M27.459 31H45.459" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M27.459 39H45.459" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M68.459 20H79.459V14.5C79.459 11.4623 76.9967 9 73.959 9C70.9213 9 68.459 11.4623 68.459 14.5V20Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M68.459 20V31" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M81.3731 74.6439L59.4844 81.5664L62.4512 90.9473L84.3399 84.0248L81.3731 74.6439Z" fill="#798190"/> <path d="M76.7138 75.1009C77.2549 72.7806 79.8212 68.8778 81.502 64.9013C82.3629 62.8515 82.7319 60.6378 82.2645 58.4732L81.3134 54.0703L79.1653 46.9044C78.9111 46.0517 78.5012 45.2481 77.9682 44.5348L74.7378 40.2303C74.0655 39.3366 73.18 38.6151 72.1469 38.1478L63.5297 34.0318C61.8899 33.1217 59.8319 33.7203 58.93 35.3355C58.0199 36.9589 58.6103 39.0333 60.2337 39.9352L67.2685 44.5676C67.9982 45.1334 68.6377 46.15 68.6377 47.0765V54.9722C68.6377 56.489 67.1455 57.8337 65.6123 57.5303C65.2023 57.4483 64.8415 57.2434 64.5382 56.9564C63.9806 56.4317 63.7183 55.6609 63.7183 54.8984V51.6352" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M88.3814 58.9817C88.3814 58.9817 58.8894 40.1649 58.7173 40.1485L55.9952 38.1069C55.6344 37.8363 55.1917 37.6805 54.7407 37.6641L51.8465 37.5576C51.3955 37.533 51.0839 38.0085 51.2971 38.4103L52.5106 40.7306C52.6828 41.0586 54.6177 42.6082 54.6177 42.6082C54.6177 42.6082 58.3565 45.0761 58.8075 45.0761C60.3653 45.0761 62.1035 45.568 62.1035 47.1258C62.1035 47.1586 62.0953 47.1914 62.0953 47.2242L62.7348 47.6424L85.6921 63.1796C86.1103 63.4502 86.5776 63.5731 87.0368 63.5731C87.8649 63.5731 88.6684 63.1632 89.1439 62.4335C89.8901 61.2774 89.5539 59.7196 88.3978 58.9817H88.3814Z" fill="#798190"/> <path d="M81.3731 74.6439L59.4844 81.5664L62.4512 90.9473L84.3399 84.0248L81.3731 74.6439Z" fill="#E4E6E9" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M61.1604 80.1685C61.1112 80.0783 61.0538 79.9799 60.9964 79.8897C59.9551 78.1433 58.1185 75.0851 56.8313 72.9615C55.8884 71.4119 55.3718 69.6409 55.3145 67.8289L56.3311 54.0873V48.7579C56.3311 46.7164 57.9791 45.0684 60.0207 45.0684C62.0623 45.0684 63.7103 46.7164 63.7103 48.7579V51.6276" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M38.7579 73.9839C38.7603 73.3275 38.2314 72.7952 37.577 72.795L27.5002 72.755C26.8438 72.7527 26.3116 73.2816 26.3114 73.936C26.309 74.5924 26.8379 75.1246 27.4923 75.1248L37.5691 75.1649C38.2255 75.1672 38.7577 74.6383 38.7579 73.9839Z" fill="#C9CDD3"/> <path d="M37.0003 66.4559C36.0598 66.4583 35.1788 65.9497 34.7998 65.0889C33.4981 62.1329 33.4029 59.6569 34.1141 57.904C34.5651 57.1433 34.8434 56.0781 34.8429 54.8993C34.8378 52.594 33.7383 51.8168 32.4062 51.8219C32.3873 51.8232 32.3724 51.829 32.3556 51.8283C32.3389 51.8277 32.3223 51.8228 32.3055 51.8222C30.9756 51.8252 29.9168 52.6048 29.9239 54.9122C29.9265 56.089 30.2104 57.155 30.6655 57.913C31.3793 59.6535 31.3009 62.1119 30.0335 65.0537C29.6485 65.9471 28.7392 66.4776 27.7664 66.48C26.3274 66.483 25.162 67.6544 25.165 69.0934L25.1682 70.5806C25.169 71.1574 25.6375 71.6244 26.2143 71.6237L38.5778 71.595C39.1546 71.5943 39.6216 71.1257 39.6209 70.5489L39.6177 69.0617C39.6147 67.6227 38.4433 66.4573 37.0043 66.4603L37.0003 66.4559Z" fill="#C9CDD3"/> <path d="M38.7579 75.0816C38.7603 74.4251 38.2314 73.8929 37.577 73.8927L27.5002 73.8527C26.8438 73.8503 26.3116 74.3792 26.3114 75.0336C26.309 75.69 26.8379 76.2223 27.4923 76.2225L37.5691 76.2625C38.2255 76.2649 38.7577 75.736 38.7579 75.0816Z" fill="#C9CDD3"/> <path d="M10.459 37V91H45.459" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> </svg>
+                            </div>
+                            <div class="tit">정책 기획 및 컨설팅</div>
+                            <ul>
+                                <li>공공기관/지자체의 정책 목표와 현장 수요 분석</li>
+                                <li>바우처 사업 기획 지원 (사업 설계 및 운영 모델 및 유관 시스템 연계 등 제안)</li>
+                                <li>카드/금융 연계 가능성 진단</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect x="25.5" y="12.4688" width="53" height="33" fill="#E4E6E9"/> <rect x="13.5" y="68.4688" width="74" height="8" fill="#E4E6E9"/> <path d="M38.5114 88.1809C38.5114 88.1809 38.5114 88.0672 38.5114 87.9534C38.5114 87.9534 38.5114 87.6691 38.682 87.5554C38.682 87.5554 38.7958 87.4416 38.8526 87.3848H36.6348C36.3505 87.3848 36.123 87.6122 36.123 87.8966C36.123 88.1809 36.3505 88.4084 36.6348 88.4084H39.0801C39.0801 88.4084 38.682 88.2946 38.5683 88.0672L38.5114 88.1809Z" fill="#2D2D2D"/> <path d="M38.5114 87.9534C38.5114 88.0672 38.5114 88.1809 38.5114 88.1809L38.5683 88.0672C38.682 88.2946 39.0801 88.4084 39.0801 88.4084H36.6348C36.3505 88.4084 36.123 88.1809 36.123 87.8966C36.123 87.6122 36.3505 87.3848 36.6348 87.3848H38.8526C38.7958 87.4416 38.682 87.5554 38.682 87.5554C38.5114 87.6691 38.5114 87.9534 38.5114 87.9534ZM38.5114 87.9534H36.578" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M61.5421 87.9627C61.5421 87.9627 61.5421 88.0765 61.5421 88.1902C61.4852 88.3608 61.2577 88.5314 61.0303 88.5314H63.4755C63.7599 88.5314 63.9873 88.3039 63.9873 88.0196C63.9873 87.7353 63.7599 87.5078 63.4755 87.5078H61.2577C61.2577 87.5078 61.3715 87.6215 61.4283 87.6784C61.5421 87.7921 61.5989 87.9059 61.5989 88.0765L61.5421 87.9627Z" fill="#2D2D2D"/> <path d="M61.5421 87.9627H63.4755M61.5421 87.9627C61.5421 87.9627 61.5421 88.0765 61.5421 88.1902C61.4852 88.3608 61.2577 88.5314 61.0303 88.5314H63.4755C63.7599 88.5314 63.9873 88.3039 63.9873 88.0196C63.9873 87.7353 63.7599 87.5078 63.4755 87.5078H61.2577C61.2577 87.5078 61.3715 87.6215 61.4283 87.6784C61.5421 87.7921 61.5989 87.9059 61.5989 88.0765L61.5421 87.9627Z" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M42.151 78.1738H15.7081C13.6609 78.1738 12.0118 76.5247 12.0118 74.4775V68.8477C11.7275 68.8477 11.5 68.6203 11.5 68.3359V74.4775C11.5 76.809 13.3766 78.6856 15.7081 78.6856H42.151C42.151 78.6856 42.151 78.3444 42.151 78.1738Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M87.9878 68.9024V74.5322C87.9878 76.5794 86.3387 78.2285 84.2915 78.2285H57.8486C57.8486 78.2285 57.8486 78.5697 57.8486 78.7403H84.2915C86.623 78.7403 88.4996 76.8637 88.4996 74.5322V68.3906C88.4996 68.675 88.2721 68.9024 87.9878 68.9024Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M87.4749 74.4777C87.4749 76.2405 86.0532 77.6053 84.3472 77.6053H57.3926C57.6769 77.6053 57.9044 77.8328 57.9044 78.1171H84.3472C86.3944 78.1171 88.0435 76.468 88.0435 74.4208V68.791H87.5317V74.4208L87.4749 74.4777Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M42.6605 77.6051H15.7059C13.943 77.6051 12.5782 76.1834 12.5782 74.4774V68.8477H12.0664V74.4774C12.0664 76.5246 13.7155 78.1737 15.7627 78.1737H42.2056C42.2056 77.8894 42.433 77.6619 42.7174 77.6619L42.6605 77.6051Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M42.6609 78.6895H42.1491C42.0353 82.1583 40.8411 85.286 38.7939 87.4469H39.5332C41.5235 85.1154 42.604 81.9308 42.7177 78.6895H42.6609Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M60.5202 87.4469H61.2595C59.2123 85.286 58.0181 82.1583 57.9044 78.6895H57.3926C57.5063 81.9308 58.5299 85.1154 60.5771 87.4469H60.5202Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M38.4582 87.9513H38.97C38.97 87.9513 39.3112 87.6101 39.4818 87.4395H38.7426C38.7426 87.4395 38.6288 87.5532 38.572 87.6101C38.4582 87.7238 38.4014 87.8375 38.4014 88.0081L38.4582 87.9513Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M61.0267 87.9534H61.5385C61.5385 87.9534 61.5385 87.6691 61.3679 87.5554C61.3679 87.5554 61.2541 87.4416 61.1973 87.3848H60.458C60.458 87.3848 60.7992 87.726 60.9698 87.8966L61.0267 87.9534Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M61.5438 88.1767C61.5438 88.1767 61.5438 88.063 61.5438 87.9492H38.4561C38.4561 87.9492 38.4561 88.063 38.4561 88.1767C38.5129 88.3473 38.7404 88.5179 38.9679 88.5179H61.032C61.032 88.5179 61.4301 88.4041 61.5438 88.1767Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M42.6661 78.1777H42.1543C42.1543 78.1777 42.1543 78.5189 42.1543 78.6895H42.6661C42.6661 78.6895 42.6661 78.3483 42.6661 78.1777Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M57.9044 78.1777H57.3926C57.3926 78.1777 57.3926 78.5189 57.3926 78.6895H57.9044C57.9044 78.6895 57.9044 78.3483 57.9044 78.1777Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M57.333 77.5977H42.6046C42.3202 77.5977 42.0928 77.8251 42.0928 78.1095H57.8447C57.8447 77.8251 57.6173 77.5977 57.333 77.5977Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M59.8401 87.4469H60.5225C58.5322 85.1154 57.4517 81.9308 57.338 78.6895H56.8262C56.9399 82.0446 58.0204 85.1722 59.8401 87.4469Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M43.1739 78.6895H42.6621C42.5483 81.9308 41.5247 85.1154 39.4775 87.4469H40.1599C41.9797 85.1722 43.0601 82.0446 43.1739 78.6895Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M40.161 87.4395H39.4786C39.4786 87.4395 39.1374 87.7807 38.9668 87.9513H61.0309C61.0309 87.9513 60.6897 87.6101 60.5191 87.4395H40.1041H40.161Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M42.665 78.6895H57.3934C57.3934 78.6895 57.3934 78.3483 57.3934 78.1777H42.665C42.665 78.1777 42.665 78.5189 42.665 78.6895Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M84.2902 26.1994H83.0391C82.7548 26.1994 82.5273 26.4269 82.5273 26.7112H84.2902C86.3374 26.7112 87.9865 28.3604 87.9865 30.4076V67.8825C88.2708 67.8825 88.4983 68.1099 88.4983 68.3943V30.3507C88.4983 28.0192 86.6217 26.1426 84.2902 26.1426V26.1994Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M12.0118 67.8256V30.3507C12.0118 28.3035 13.6609 26.6544 15.7081 26.6544H21.1104C21.1104 26.37 20.8829 26.1426 20.5986 26.1426H15.7081C13.3766 26.1426 11.5 28.0192 11.5 30.3507V68.3374C11.5 68.0531 11.7275 67.8256 12.0118 67.8256Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M87.9873 67.8242V68.8478C88.2716 68.8478 88.4991 68.6203 88.4991 68.336C88.4991 68.0517 88.2716 67.8242 87.9873 67.8242Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M12.0118 68.9045V67.8809C11.7275 67.8809 11.5 68.1083 11.5 68.3927C11.5 68.677 11.7275 68.9045 12.0118 68.9045Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M12.0107 68.9046H12.5225H87.4724H87.9842V68.3359H12.0107V68.9046Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M83.096 27.2191H84.3471C86.1099 27.2191 87.4747 28.6407 87.4747 30.3467V67.8216H87.9865V30.3467C87.9865 28.2995 86.3374 26.6504 84.2902 26.6504H82.5273C82.5273 26.9347 82.7548 27.1622 83.0391 27.1622L83.096 27.2191Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M15.7071 26.709C13.6599 26.709 12.0107 28.3581 12.0107 30.4053V67.8802H12.5225V30.3484C12.5225 28.5856 13.9442 27.2208 15.6502 27.2208H20.5407C20.825 27.2208 21.0525 26.9933 21.0525 26.709H15.6502H15.7071Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M25.4893 17.4454C25.205 17.4454 24.9775 17.2179 24.9775 16.9336V26.7146H25.4893V17.4454Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M78.207 17.4378V26.707H78.7188V16.8691C78.7188 17.1535 78.4914 17.3809 78.207 17.3809V17.4378Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M78.207 40.6412C78.207 40.6412 78.5482 40.8687 78.7188 40.9824V26.709H78.207V40.6412Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M62.2804 46.3223H61.7686C61.7686 46.6066 61.996 46.8341 62.2804 46.8341H67.2846C67.2846 46.8341 67.2846 46.4929 67.2846 46.3223H62.2804Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M25.4857 46.8397H37.7119C37.9963 46.8397 38.2237 46.6122 38.2237 46.3279H25.4288V26.709H24.917V46.3279C24.917 46.6122 25.1445 46.8397 25.4288 46.8397H25.4857Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M26.0001 17.4453H25.4883V26.7145H26.0001V17.4453Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M78.1466 17.4453H77.6348V26.7145H78.1466V17.4453Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M67.2846 46.3223C67.2846 46.3223 67.2846 45.9811 67.3415 45.8105H62.2804C61.996 45.8105 61.7686 46.038 61.7686 46.3223H67.2846Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M77.6348 40.3569C77.6348 40.3569 77.976 40.5275 78.1466 40.6412V26.709H77.6348V40.4138V40.3569Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M37.7761 45.7575H26.0616V26.6504H25.5498V46.2693H38.3447C38.3447 45.985 38.1173 45.7575 37.8329 45.7575H37.7761Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M25.4893 16.3593V11.9805H72.7453C72.7453 11.6962 72.9727 11.4688 73.2571 11.4688H25.4893C25.205 11.4688 24.9775 11.6962 24.9775 11.9805V16.8711C24.9775 16.5867 25.205 16.3593 25.4893 16.3593Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M25.4893 17.4455V16.9337V16.4219C25.205 16.4219 24.9775 16.6493 24.9775 16.9337C24.9775 17.218 25.205 17.4455 25.4893 17.4455Z" fill="#2D2D2D"/> <path d="M25.4893 16.9337V17.4455C25.205 17.4455 24.9775 17.218 24.9775 16.9337C24.9775 16.6493 25.205 16.4219 25.4893 16.4219V16.9337ZM25.4893 16.9337H72.7453" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M26.0001 17.4454H73.256C72.9717 17.4454 72.7442 17.2179 72.7442 16.9336H25.4883V17.4454H26.0001Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M26.0001 16.3592V12.4923H72.7442V11.9805H25.4883V16.3592H26.0001Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.7442 16.3574H26.0001H25.4883V16.8692H72.7442V16.3574Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M73.8263 11.9805H78.205V16.3593C78.4893 16.3593 78.7168 16.5867 78.7168 16.8711V11.9805C78.7168 11.6962 78.4893 11.4688 78.205 11.4688H73.3145C73.5988 11.4688 73.8263 11.6962 73.8263 11.9805Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M78.207 16.3574V16.8692V17.381C78.4914 17.381 78.7188 17.1536 78.7188 16.8692C78.7188 16.5849 78.4914 16.3574 78.207 16.3574Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M73.3145 17.4454H78.205V16.9336H73.8263C73.8263 17.2179 73.5988 17.4454 73.3145 17.4454Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.7422 11.9805H73.7658C73.7658 11.6962 73.5383 11.4688 73.254 11.4688C72.9696 11.4688 72.7422 11.6962 72.7422 11.9805Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M73.3096 17.4454C73.594 17.4454 73.8214 17.2179 73.8214 16.9336H72.7979C72.7979 17.2179 73.0253 17.4454 73.3096 17.4454Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.7422 16.3592H73.3108V11.9805H72.7422V12.4923V16.3592Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M73.3108 16.3574H72.7422V16.8692H73.3108V16.3574Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M77.6352 12.4923V16.3592H78.2039V11.9805H73.8252V12.4923H77.6352Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M73.8252 16.3574V16.8692H78.2039V16.3574H77.6352H73.8252Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M73.3145 16.3592H73.8263V12.4923V11.9805H73.3145V16.3592Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M73.8263 16.3574H73.3145V16.8692H73.8263V16.3574Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M51.252 23.4688C50.9677 23.4688 50.7402 23.6962 50.7402 23.9805H51.7638C51.7638 23.6962 51.5364 23.4688 51.252 23.4688Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M65.9221 23.4688H61.7139C61.4296 23.4688 61.2021 23.6962 61.2021 23.9805H66.4339C66.4339 23.6962 66.2064 23.4688 65.9221 23.4688Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.0663 23.4688H70.1329C69.8486 23.4688 69.6211 23.6962 69.6211 23.9805H72.635C72.635 23.6962 72.4075 23.4688 72.1232 23.4688H72.0663Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M51.252 24.4923C51.5364 24.4923 51.7638 24.2648 51.7638 23.9805H50.7402C50.7402 24.2648 50.9677 24.4923 51.252 24.4923Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M70.1282 24.4923H72.0617C72.346 24.4923 72.5735 24.2648 72.5735 23.9805H69.5596C69.5596 24.2648 69.787 24.4923 70.0714 24.4923H70.1282Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M61.7139 24.4923H65.9221C66.2064 24.4923 66.4339 24.2648 66.4339 23.9805H61.2021C61.2021 24.2648 61.4296 24.4923 61.7139 24.4923Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.5769 31.5958C72.5769 31.3114 72.3494 31.084 72.0651 31.084H51.252C50.9677 31.084 50.7402 31.3114 50.7402 31.5958C50.7402 31.8801 50.9677 32.1076 51.252 32.1076H72.0651C72.3494 32.1076 72.5769 31.8801 72.5769 31.5958Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M34.9287 26.7091H40.5585C39.7055 26.3679 38.7388 26.1973 37.772 26.1973C36.8053 26.1973 35.8386 26.3679 34.9856 26.7091H34.9287Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M43.8592 30.0072C43.9161 30.0641 43.973 30.1778 43.973 30.2347C44.6554 31.372 45.0534 32.68 45.0534 34.0447C45.0534 38.0823 41.7552 41.3805 37.7177 41.3805C33.6802 41.3805 30.3819 38.0823 30.3819 34.0447C30.3819 30.0072 33.6802 26.709 37.7177 26.709H34.9312C31.9742 27.8463 29.8701 30.6896 29.8701 34.0447C29.8701 38.3666 33.3958 41.9492 37.7745 41.9492C42.1532 41.9492 45.679 38.4235 45.679 34.0447C45.679 30.6896 43.5749 27.8463 40.6179 26.709H37.8314C40.3904 26.709 42.665 28.0169 43.973 30.0072H43.8592Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M30.3809 34.043C30.3809 38.0805 33.6791 41.3788 37.7166 41.3788C41.7541 41.3788 45.0524 38.0805 45.0524 34.043C45.0524 32.6214 44.6543 31.3134 43.9719 30.233C43.9719 30.4036 43.9719 30.631 43.8582 30.7448L43.7445 30.8585C44.2563 31.8252 44.5406 32.9057 44.5406 34.043C44.5406 37.7962 41.4698 40.867 37.7166 40.867C33.9634 40.867 30.8927 37.7962 30.8927 34.043C30.8927 30.2898 33.9634 27.2191 37.7166 27.2191C39.9344 27.2191 41.9247 28.2995 43.1758 29.9486C43.3464 29.778 43.6307 29.778 43.8582 29.9486C42.5503 27.9583 40.2756 26.6504 37.7166 26.6504C33.6791 26.6504 30.3809 29.9486 30.3809 33.9861V34.043Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M43.1718 30.0061L37.7695 35.4084L36.2341 33.873C36.2341 33.873 35.7223 33.6455 35.4948 33.873C35.2674 34.1005 35.2674 34.3848 35.4948 34.6123L37.4283 36.5457C37.4283 36.5457 37.6557 36.7163 37.8263 36.7163C37.9969 36.7163 38.1107 36.7163 38.2244 36.5457L43.911 30.8591C43.7404 30.5179 43.5698 30.2336 43.3424 29.9492L43.1718 30.0061Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M43.915 30.0078C43.915 30.0647 44.0288 30.1784 44.0856 30.2353C44.0856 30.1784 44.0288 30.0647 43.9719 30.0078H43.915Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M43.2326 29.9558C43.2326 29.9558 43.6307 30.5245 43.8013 30.8657L43.915 30.752C43.915 30.752 44.0856 30.4108 44.0288 30.2402C44.0288 30.1833 43.915 30.0696 43.8582 30.0127C43.6876 29.8421 43.4032 29.8421 43.1758 30.0127L43.2326 29.9558Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M49.9961 56.7881C49.9961 56.7881 50.3373 56.7881 50.5079 56.7881V46.2109H49.9961V56.7312V56.7881Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M49.9962 56.7976V46.2773H49.4844V56.8545C49.4844 56.8545 49.8256 56.8545 49.9962 56.8545V56.7976Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M49.9962 45.7676C49.7118 45.7676 49.4844 45.995 49.4844 46.2794H50.508C50.508 45.995 50.2805 45.7676 49.9962 45.7676Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M43.3466 46.3223V53.1462H38.9679C38.6835 53.1462 38.4561 53.3737 38.4561 53.658V56.8425C38.4561 56.8425 38.7973 56.8425 38.9679 56.8425C39.1385 56.8425 39.3091 56.8425 39.4797 56.8425V54.1698H43.8584C44.1427 54.1698 44.3702 53.9424 44.3702 53.658V46.3223H43.3466Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M43.8536 45.7676C43.5693 45.7676 43.3418 45.995 43.3418 46.2794H44.3654C44.3654 45.995 44.1379 45.7676 43.8536 45.7676Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M55.626 46.3223V53.658C55.626 53.9424 55.8534 54.1698 56.1378 54.1698H60.5165V56.8425C60.5165 56.8425 60.8577 56.8425 61.0283 56.8425C61.1989 56.8425 61.3695 56.8425 61.5401 56.8425V53.658C61.5401 53.3737 61.3126 53.1462 61.0283 53.1462H56.6496V46.3223H55.626Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M56.1378 45.7676C55.8534 45.7676 55.626 45.995 55.626 46.2794H56.6496C56.6496 45.995 56.4221 45.7676 56.1378 45.7676Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M49.4844 57.3634C49.4844 57.3634 49.8256 57.3634 49.9962 57.3634V56.8516C49.9962 56.8516 49.655 56.8516 49.4844 56.8516V57.3065V57.3634Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M49.9961 57.3065C49.9961 57.3065 50.3373 57.3065 50.5079 57.3065V56.8516C50.5079 56.8516 50.1667 56.8516 49.9961 56.8516V57.3634V57.3065Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M49.9962 57.8729C49.9962 57.8729 50.508 57.6454 50.508 57.418C50.3374 57.418 50.1668 57.418 49.9962 57.418C49.8256 57.418 49.655 57.418 49.4844 57.418C49.4844 57.7023 49.7118 57.8729 49.9962 57.8729Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M38.4561 56.8516V57.3065C38.6267 57.3065 38.7973 57.3065 38.9679 57.3065C39.1385 57.3065 39.3091 57.3065 39.4797 57.3065V56.8516C39.4797 56.8516 39.1385 56.8516 38.9679 56.8516C38.7973 56.8516 38.6267 56.8516 38.4561 56.8516Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M38.9679 57.8729C38.9679 57.8729 39.4797 57.6454 39.4797 57.418C39.3091 57.418 39.1385 57.418 38.9679 57.418C38.7973 57.418 38.6267 57.418 38.4561 57.418C38.4561 57.7023 38.6835 57.8729 38.9679 57.8729Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M60.5195 56.8516V57.3065C60.6901 57.3065 60.8607 57.3065 61.0313 57.3065C61.2019 57.3065 61.3725 57.3065 61.5431 57.3065V56.8516C61.5431 56.8516 61.2019 56.8516 61.0313 56.8516C60.8607 56.8516 60.6901 56.8516 60.5195 56.8516Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M61.0313 57.8729C61.0313 57.8729 61.5431 57.6454 61.5431 57.418C61.3725 57.418 61.2019 57.418 61.0313 57.418C60.8607 57.418 60.6901 57.418 60.5195 57.418C60.5195 57.7023 60.747 57.8729 61.0313 57.8729Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.0668 53.203C69.5647 52.2363 67.8018 49.791 67.8018 46.9477C67.8018 46.9477 67.8018 46.8909 67.8018 46.834H67.29C67.29 46.834 67.29 46.8909 67.29 46.9477C67.29 49.8479 68.9392 52.4069 71.555 53.5442V60.9937C71.555 61.278 71.7825 61.5055 72.0668 61.5055C72.3511 61.5055 72.5786 61.278 72.5786 60.9937H72.0668V53.203Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M81.2738 46.9043C81.2738 49.7477 79.511 52.1929 77.0089 53.1596V60.9503H76.4971C76.4971 61.2347 76.7245 61.4621 77.0089 61.4621C77.2932 61.4621 77.5207 61.2347 77.5207 60.9503V53.5008C80.1365 52.3066 81.7856 49.7477 81.7856 46.9043C81.7856 44.5159 80.6483 42.2982 78.7149 40.9902V41.6726C80.2502 42.9237 81.2738 44.8003 81.2738 46.9612V46.9043Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.0668 40.6437V45.7617H72.5786V40.6437C72.5786 40.6437 72.4649 40.3025 72.3511 40.1888C72.2374 40.0751 72.0099 40.0751 71.8393 40.1888C69.3941 41.1555 67.6881 43.2596 67.29 45.8186H67.8018C68.1999 43.4871 69.849 41.5536 72.0099 40.7006L72.0668 40.6437Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M76.9544 40.6482C76.9544 40.6482 77.4093 40.8756 77.6368 40.9894V40.4207C77.6368 40.4207 77.2956 40.2501 77.125 40.1932C76.9544 40.1364 76.7838 40.1932 76.6132 40.1932C76.4426 40.307 76.3857 40.4776 76.3857 40.6482V45.7661H76.8975V40.6482H76.9544Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M67.8018 46.3223H67.29C67.29 46.3223 67.29 46.6635 67.29 46.8341H67.8018C67.8018 46.8341 67.8018 46.4929 67.8018 46.3223Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M78.207 41.2603C78.207 41.2603 78.5482 41.4878 78.7188 41.6584V40.976C78.7188 40.976 78.3776 40.7485 78.207 40.6348V41.2603Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.0654 46.3362H76.9559V45.7676H76.4441H72.5772H72.0654V46.3362Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M77.6348 40.9849C77.6348 40.9849 77.976 41.1555 78.1466 41.2692V40.6437C78.1466 40.6437 77.8054 40.4731 77.6348 40.3594V40.928V40.9849Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M67.3469 45.7676C67.3469 45.7676 67.3469 46.1088 67.29 46.2794H67.8018C67.8018 46.2794 67.8018 45.9382 67.8587 45.7676H67.3469Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.2366 52.7032C69.8482 51.7364 68.2559 49.5186 68.2559 46.9028C68.2559 46.9028 68.2559 46.8459 68.2559 46.7891H67.7441C67.7441 46.7891 67.7441 46.8459 67.7441 46.9028C67.7441 49.7461 69.507 52.1914 72.0091 53.1581V60.9488H72.5209V53.1581C72.5209 53.1581 72.4072 52.76 72.1797 52.6463L72.2366 52.7032Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M76.9556 53.2021C79.4577 52.2353 81.2206 49.7901 81.2206 46.9468C81.2206 44.8427 80.2539 42.9093 78.6616 41.6582V42.3406C79.9127 43.4779 80.6519 45.127 80.6519 46.9468C80.6519 49.5058 79.1165 51.7804 76.6713 52.7471C76.4438 52.804 76.3301 53.0315 76.3301 53.2589V61.0496H76.8419V53.2589L76.9556 53.2021Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M71.5518 41.4309V45.7527H72.0636V40.6348C69.9027 41.4878 68.2535 43.4212 67.8555 45.7527H68.3673C68.7085 43.933 69.8458 42.3408 71.4949 41.4309H71.5518Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M76.9521 45.7527H77.4639V41.4309C77.4639 41.4309 77.5777 41.4878 77.6345 41.5446V40.976C77.6345 40.976 77.1796 40.7485 76.9521 40.6348V45.7527Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M77.4632 46.3223H71.4922C71.4922 46.6066 71.7197 46.8341 72.004 46.8341H76.8945C77.1788 46.8341 77.4063 46.6066 77.4063 46.3223H77.4632Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M78.7188 42.35V41.6676C78.7188 41.6676 78.3776 41.3833 78.207 41.2695V41.8951C78.207 41.8951 78.5482 42.1794 78.7188 42.35Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M67.7998 46.3223C67.7998 46.3223 67.7998 46.6635 67.7998 46.8341H68.3116C68.3116 46.8341 68.3116 46.4929 68.3116 46.3223H67.7998Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M68.4241 45.7676H67.9123C67.9123 45.7676 67.9123 46.1088 67.8555 46.2794H68.3673C68.3673 46.2794 68.3673 45.9382 68.4241 45.7676Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M77.4639 45.7676H76.9521V46.2794H77.4639V45.7676Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M72.0655 45.7676H71.5537V46.2794H72.0655V45.7676Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <path d="M77.6348 41.5589C77.6348 41.5589 77.976 41.7864 78.1466 41.9001V41.2746C78.1466 41.2746 77.8054 41.0471 77.6348 40.9902V41.5589Z" fill="#2D2D2D" stroke="#2D2D2D" stroke-width="2" stroke-linejoin="bevel"/> <circle cx="39" cy="59.9688" r="2.5" fill="#798190"/> <circle cx="50" cy="59.9688" r="2.5" fill="#2D2D2D"/> <circle cx="61" cy="59.9688" r="2.5" fill="#798190"/> <rect x="54.5" y="36.4688" width="10" height="6" rx="3" fill="#798190"/> </svg>
+                            </div>
+                            <div class="tit">시스템 및 플랫폼 구축</div>
+                            <ul>
+                                <li>바우처 관리 시스템 설계 및 계약</li>
+                                <li>지자체/공공기관 전용 통합 플랫폼 제공</li>
+                                <li>자격 검증을 위한 유관 시스템 연계 및 행정 지원</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M18.7949 40.084L4.5 59.123L13.3351 65.7566L27.6301 46.7176L18.7949 40.084Z" fill="#798190"/> <path d="M65.8863 50L78.5 64.7398C78.5 64.7398 73.7147 72.2019 72.4927 73.4302C71.2708 74.6662 68.9136 77 68.9136 77C68.9136 77 49.0471 58.7902 48.2272 58.1914C47.5177 57.677 40.1229 63.834 39.0744 64.7705C38.0259 65.7071 34.8646 64.6554 35.6136 63.9261C38.1363 61.4694 44.6244 55.9727 47.3837 53.2858C48.2272 52.4643 50.75 50.8291 52.4291 50.8291C54.9519 50.8291 57.8136 51.5968 59.9973 51.6506C62.8196 51.7196 65.8863 50.0154 65.8863 50.0154V50Z" fill="#E4E6E9"/> <path d="M78.5 65C74.5873 67.7257 75.2583 72.6272 68.5 78" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M34.2337 78L27.5 83.8219C27.5 83.8219 31.8245 88.8214 32.7897 87.8826L38.3787 82.4464C39.3438 81.5077 34.2337 78 34.2337 78Z" fill="#E4E6E9"/> <path d="M27.3579 75L22.5 79.6256C22.5 79.6256 25.9977 83.8427 27.0422 82.8482L31.3576 79.5563C32.4021 78.5618 27.3579 75 27.3579 75Z" fill="#E4E6E9"/> <path d="M49.3169 90.0158C49.3169 90.0158 45.036 94 44.3714 94C43.506 94 40.5 90.9801 40.5 90.9801L45.9092 85C45.9092 85 50.4761 88.8945 49.3092 90.0158H49.3169Z" fill="#E4E6E9"/> <path d="M40.2159 81L31.5 88.2912C31.5 88.2912 35.549 92.8118 36.579 91.8712L43.3378 85.6518C44.36 84.7112 40.2159 81 40.2159 81Z" fill="#E4E6E9"/> <path d="M36.5239 78.9761C35.2224 77.6746 33.0968 77.6746 31.7953 78.9761L28.4761 82.2953C27.1746 83.5968 27.1746 85.7224 28.4761 87.0239C29.7776 88.3254 31.9032 88.3254 33.2047 87.0239L36.5239 83.7047C37.8254 82.4032 37.8254 80.2776 36.5239 78.9761Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M29.4172 76.9474C27.9736 75.6842 25.6159 75.6842 24.1722 76.9474L23.5828 77.4632C22.1391 78.7264 22.1391 80.7894 23.5828 82.0526C25.0264 83.3158 27.3841 83.3158 28.8278 82.0526L29.4172 81.5368C30.8609 80.2736 30.8609 78.2106 29.4172 76.9474Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M48.4823 90.9305L46.4312 92.9902C46.271 93.1505 46.1107 93.2787 45.9344 93.3909C45.3416 93.7996 44.6685 94 43.9795 94C43.0822 94 42.1928 93.6714 41.5118 92.9902C40.31 91.7881 40.1818 89.9127 41.1112 88.5663C41.2234 88.39 41.3596 88.2297 41.5118 88.0695L43.5629 86.0178C44.2439 85.3366 45.1413 85 46.0306 85C46.7036 85 47.3686 85.1923 47.9455 85.569C47.9535 85.577 47.9775 85.585 47.9855 85.6011C48.1618 85.7213 48.322 85.8575 48.4823 86.0178C48.6345 86.1701 48.7627 86.3304 48.8829 86.4987C49.8203 87.8451 49.6921 89.7364 48.4823 90.9386V90.9305Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M42.5129 81.9871C41.1968 80.671 39.0474 80.671 37.7313 81.9871L33.4871 86.2313C32.171 87.5474 32.171 89.6968 33.4871 91.0129C34.8032 92.329 36.9526 92.329 38.2687 91.0129L42.5129 86.7687C43.829 85.4526 43.829 83.3032 42.5129 81.9871Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M86.5 58.6833L79.0909 65L63.5 47.7481L71.4747 42" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M22.5 77C20.9113 75.6324 20.8342 75.578 20.1478 74.8787C18.2429 72.9671 17.0321 70.9002 16.0835 68.9964C15.1504 67.147 14.4794 65.4686 13.6542 64.2409C13.6157 64.1554 13.5617 64.0777 13.5 64" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M45.5 49C42.6775 46.9797 39.0106 46.5066 35.6708 47.5055C35.4806 47.558 35.2904 47.6181 35.1002 47.6632C32.6809 48.3541 29.8052 48.9249 27.9032 48.4968C27.7815 48.4818 27.6674 48.4517 27.5533 48.4142C27.538 48.4067 27.5152 48.4067 27.5 48.3917" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M55.4415 74L63.4873 82.0968C64.8376 83.4436 64.8376 85.6431 63.4873 86.9899C62.137 88.3367 59.9318 88.3367 58.5815 86.9899L53.5 81.8497" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M67.932 76.6226L68.4847 77.166C69.8384 78.497 69.8384 80.6708 68.4847 82.0018C67.131 83.3327 64.9201 83.3327 63.5664 82.0018L55.5 74" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M50.7035 79L58.52 87.1102C59.8267 88.4539 59.8267 90.6484 58.52 91.9922C57.2134 93.3359 55.0795 93.3359 53.7729 91.9922L48.5 86.4979" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M67.5 77L49.9036 59.1177L49.5635 58.772C48.6357 57.8213 47.1436 57.8056 46.2004 58.7249C43.9738 60.8934 40.3323 64.4133 40.0772 64.6568C38.8711 65.8354 36.946 65.7804 35.7941 64.5625L35.3379 64.0833C35.2529 63.989 35.1679 63.8868 35.0983 63.7768C34.1937 62.5512 34.3251 60.8069 35.423 59.7305L45.1103 50.318C45.5741 49.8701 46.0612 49.4537 46.5637 49.0923C49.432 46.9788 53.1585 46.4838 56.5525 47.5288C59.2894 48.3695 61.5701 48.5188 63.6189 47.8273" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M82.5 53V22" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M31.5 42V11H77.5" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M41.5 24H57.5" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M41.5 32H51.5" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M62.5 29.632L67.1802 35L91.5 13.296L87.4686 8L62.5 29.632Z" fill="#798190"/> <path d="M66.994 35.445L59.5 37L62.1836 29.7928L87.6896 8L92.5 13.6523L66.994 35.445Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M87.5 8.31034C87.5 8.31034 91.7646 4.40474 94.325 6.74957C97.7414 9.87845 92.6207 13 92.6207 13" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M47.5 92C47.5 92 48.16 93.1706 49.75 93.8148C52 94.7222 53.5 92 53.5 92" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M18.7949 40.084L4.5 59.123L13.3351 65.7566L27.6301 46.7176L18.7949 40.084Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> </svg>
+                            </div>
+                            <div class="tit">지속 가능한 확산 지원</div>
+                            <ul>
+                                <li>국가/지역별 맞춤형 확산 전략 수립 (지자체 특화 모델 및 커머서 연계 등)</li>
+                                <li>금융기관과의 장기 협력 모델 제시</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M25.5762 32.9238L16.0762 36.9238V48.9238C16.4095 48.7572 21.4762 48.5238 27.0762 48.9238C34.0762 49.4238 38.0762 56.9238 40.5762 62.4238C42.5762 66.8238 39.7428 74.5905 38.0762 77.9238C51.7428 78.0905 80.1762 78.3238 84.5762 77.9238C88.9762 77.5238 91.4095 74.0905 92.0762 72.4238V35.4238L86.5762 36.9238C83.3762 36.9238 80.2428 31.5905 79.0762 28.9238C78.5762 31.4238 73.0762 35.4238 70.0762 35.4238C67.6762 35.4238 66.0762 34.4238 65.5762 33.9238L61.0762 29.9238C60.4095 31.7572 57.6762 35.4238 52.0762 35.4238C46.4762 35.4238 44.7428 31.0905 44.5762 28.9238L40.5762 34.9238L34.5762 35.4238L32.0762 34.9238L27.0762 28.9238L25.5762 32.9238Z" fill="#E4E6E9"/> <line x1="15.5762" y1="37.4238" x2="15.5762" y2="48.4238" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round"/> <path d="M86.9896 50.7298L87.1038 45.7973L82.2898 43.9238L79.1402 47.6791C78.0061 47.588 76.8719 47.6211 75.7622 47.7786L72.4087 44.214L67.7007 46.3528L68.0842 51.277C67.2274 52.0065 66.4523 52.8355 65.7669 53.7639L60.912 53.6479L59.0762 58.5389L62.7724 61.7471C62.6745 62.8994 62.7153 64.0517 62.8703 65.1708L59.3536 68.5779L61.4587 73.3612L66.3054 72.9716" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <circle cx="78.0762" cy="62.9238" r="7" stroke="#2D2D2D" stroke-width="3"/> <path d="M32.3338 12.7461L27.9941 27.0592C27.9089 27.7722 27.9089 28.4929 28.0251 29.1825C28.5133 32.9487 31.5201 36.0795 35.4645 36.5522C40.1219 37.1102 44.3918 33.7547 44.9498 29.0973L45.1357 27.5319L45.2752 26.7027" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M61.4559 13.3965L62.1998 27.5314V27.9266C62.1998 32.15 59.255 35.9395 55.0859 36.6446C49.7078 37.5591 45.0039 33.3899 45.0039 28.1746L45.9958 13.1562" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M62.3311 27.9194L62.517 29.0973C63.075 33.7547 67.3449 37.1102 72.0023 36.5522C75.9467 36.0795 78.9535 32.9565 79.4417 29.1825C79.5579 28.4929 79.5579 27.7799 79.4727 27.0592L75.133 12.7461" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M11.0537 28.7012H96.297" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M75.374 13.2031H88.1915L96.4834 26.3926C97.5993 30.9957 94.7475 35.6686 90.1599 36.7845C85.5567 37.9004 80.8838 35.0487 79.7679 30.461L79.4347 29.6318" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M28.0172 29.6318L27.684 30.461C26.5681 35.0487 21.8952 37.9004 17.2921 36.7845C12.7044 35.6686 9.85265 30.9957 10.9686 26.3926L19.2682 13.2031H78.4735" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M38.9521 78.298H86.0607C89.5634 78.298 92.4229 75.4308 92.4229 71.9358V36.7461" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M40.2166 75.3518C44.2428 65.5495 39.5603 54.3392 29.758 50.313C19.9557 46.2868 8.7455 50.9693 4.71929 60.7716C0.693073 70.5739 5.37552 81.7841 15.1778 85.8103C24.9801 89.8365 36.1903 85.1541 40.2166 75.3518Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10"/> <path d="M22.5762 54.9238C15.6746 54.9238 10.0762 60.1386 10.0762 66.5695C10.0762 70.0521 11.7261 73.1724 14.3267 75.3037L13.924 80.9238L19.4833 77.8404C20.4733 78.0738 21.5079 78.2151 22.5762 78.2151C29.4777 78.2151 35.0762 73.0004 35.0762 66.5695C35.0762 60.1386 29.4777 54.9238 22.5762 54.9238Z" fill="#798190"/> <path d="M28.0762 66.1091C28.0762 66.0452 28.0762 65.9812 28.0708 65.9173C27.9643 64.3716 26.7332 63.1032 25.193 62.9539C24.1697 62.8527 23.237 63.4656 22.5869 64.1318C21.942 63.4656 21.0093 62.842 19.9861 62.9326C18.5045 63.0659 17.2894 64.2384 17.1029 65.7147C17.0869 65.848 17.0762 65.9759 17.0762 66.1038C17.0709 67.0312 17.5186 67.8999 18.2434 68.4808L22.5496 71.9238L26.8877 68.5022C27.6178 67.9266 28.0815 67.0472 28.0708 66.1145L28.0762 66.1091Z" fill="white"/> </svg>
+                            </div>
+                            <div class="tit">바우처 운영 지원</div>
+                            <ul>
+                                <li>공공 바우처 사업 신청·심사 프로세스 지원</li>
+                                <li>금융 네트워크와 연계한 지원금 집행 체계 구축</li>
+                                <li>데이터 기반 운영 자동화 및 투명성 강화</li>
+                            </ul>
+                        </div>
+                        <div class="item">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15.5 59.7576L25.85 60.1304L35.9341 57.2169L46.55 58.0592L56.6053 56.7889L65.525 51.4797L75.7456 51.9008L84.5 48V67H15.5C15.5 67 15.5 59.2743 15.5 59.7438V59.7576Z" fill="#E4E6E9"/> <path d="M45.1166 33.2091C45.0953 27.7974 40.7037 23.4199 35.292 23.4199V33.2091H45.1166Z" fill="#798190"/> <path d="M15.875 56.5827L35.0637 50.0943L57.0008 50.6964L75.375 42.416" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M66 85H33C31.6193 85 30.5 86.1193 30.5 87.5C30.5 88.8807 31.6193 90 33 90H66C67.3807 90 68.5 88.8807 68.5 87.5C68.5 86.1193 67.3807 85 66 85Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M40.5 73V78.8529C40.5 80.9894 39.762 82.3426 38.5 84" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M58.5 73V78.8529C58.5 80.9894 59.238 82.3426 60.5 84" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M79.5 15H20.5C17.1863 15 14.5 17.6863 14.5 21V62C14.5 65.3137 17.1863 68 20.5 68H79.5C82.8137 68 85.5 65.3137 85.5 62V21C85.5 17.6863 82.8137 15 79.5 15Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M79.5 10H20.5C14.4249 10 9.5 14.9249 9.5 21V62C9.5 68.0751 14.4249 73 20.5 73H79.5C85.5751 73 90.5 68.0751 90.5 62V21C90.5 14.9249 85.5751 10 79.5 10Z" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M71.5 40L77.8608 40.595L75.155 46.8708" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M59.375 24H74.9583" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M48.75 24H53" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M59.375 31.791H74.9583" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M48.75 31.791H53" stroke="#2D2D2D" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/> <path d="M33.1668 35.3329V23.3691C27.8684 24.0775 23.8026 28.6746 23.9584 34.1996C24.1143 39.7529 28.7397 44.3783 34.293 44.5341C39.818 44.69 44.4151 40.6241 45.1234 35.3329H33.1668Z" fill="#C9CDD3"/> </svg>
+                            </div>
+                            <div class="tit">성과 관리 및 모니터링</div>
+                            <ul>
+                                <li>사업 수행 현황 실시간 모니터링</li>
+                                <li>정량·정성 지표 기반 성과 평가 리포트 제공</li>
+                                <li>정책 개선을 위한 피드백 및 재설계 지원</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub_section scroll_reveal to_bottom show_center">
+                <div class="container">
+                    <div class="title_sub">
+                        <h4>트라이언소프트의 차별점</h4>
+                    </div>
+                    <div class="blue_white_cards">
+                        <div class="item">
+                            <div class="number">01</div>
+                            <div class="tit">카드/금융 네트워크 연계 역량</div>
+                            <ul>
+                                <li>최단시간, 최적의 연계 시스템 구축</li>
+                                <li>단순 바우처 시스템 구축/운영사가 아닌 금융사와의 협업을 통한 패키지 모델 제공</li>
+                            </ul>
+                        </div>
+
+                        <div class="item">
+                            <div class="number">02</div>
+                            <div class="tit">원스톱 프로세스</div>
+                            <ul>
+                                <li>공공바우처 사업 전 과정을 원스톱으로 지원</li>
+                                <li>손쉽게 추진 가능한 컨설팅부터 모니터링까지 전 과정 지원</li>
+                            </ul>
+                        </div>
+
+                        <div class="item">
+                            <div class="number">03</div>
+                            <div class="tit">검증된 성과와 레퍼런스</div>
+                            <ul>
+                                <li>복지부, 국토부, 기재부, 중기부, 여가부, 교육부, 환경부 등 다수의 정부 지원사업 수행 경험과 성공 사례 축적</li>
+                            </ul>
+                        </div>
+
+                        <div class="item">
+                            <div class="number">04</div>
+                            <div class="tit">바우처 전용 쇼핑몰부터 전문 고객센터까지</div>
+                            <ul>
+                                <li>바우처 전용 쇼핑몰과 전문 고객센터 직접 운영</li>
+                                <li>물품 바우처 등 다양한 사업 모델로 사업 전개</li>
+                                <li>민원 걱정 없이 안심할 수 있는 전방위 지원</li>
+                            </ul>
+                        </div>
+
+                        <div class="item">
+                            <div class="number">05</div>
+                            <div class="tit">AI 기반의 맞춤형 바우처 정보 제공</div>
+                            <ul>
+                                <li>다양한 바우처/보조금 데이터에 전문적으로 학습한 AI 알고리즘 적용</li>
+                                <li>AI기반의 고도화된 바우처 모의 매칭 프로세스로 수혜자를 위한 최적의 지원 모델 구현</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sub_section scroll_reveal to_bottom show_center">
+                <div class="container">
+                    <div class="section_round">
+                        <div class="title_sub">
+                            <strong>투명성과 효율성의 완성</strong>
+                            <h4>블록체인 기반 전자바우처</h4>
+                            <p>‘트라이언소프트의 국고 보조금 관리시스템’은 핵심 역량을 차세대 전자바우처 영역으로 확대하여, <br class="pc"/> 보조금 집행의 투명성과 정산 효율성을 극대화합니다.</p>
+                        </div>
+                        <div class="icon_card_grid">
+                            <div class="item">
+                                <div class="icon">
+                                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M52.983 8.6582H27.0172L8.65942 27.0162V52.9821L27.0172 71.34H52.983L71.3408 52.9821V27.0162L52.983 8.6582Z" fill="#F8F9FB" stroke="#E4E6E9" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M71.34 53.1468L46.0504 26.965L27.0165 8.6582" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M27.0165 71.3398L51.4765 49.2092L71.34 26.9648" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M8.65942 53.1468L27.0172 29.6241L52.983 8.6582" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M52.9833 71.3416L51.4777 49.2109" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M8.65942 53.1484L32.0229 50.4837L51.4773 49.2109L71.3408 53.1484" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M52.9822 8.6582L46.0504 26.965L51.4765 49.2093L32.0221 50.4821L27.0165 71.34" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M27.0165 8.6582V29.6241L32.0221 50.4821L52.9822 71.34" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M8.65942 26.9648L27.0172 29.6239L46.0512 26.9648H71.3408" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M27.0162 11.3182C28.4848 11.3182 29.6753 10.1277 29.6753 8.65909C29.6753 7.19052 28.4848 6 27.0162 6C25.5477 6 24.3572 7.19052 24.3572 8.65909C24.3572 10.1277 25.5477 11.3182 27.0162 11.3182Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M27.0162 32.283C28.4848 32.283 29.6753 31.0925 29.6753 29.6239C29.6753 28.1554 28.4848 26.9648 27.0162 26.9648C25.5477 26.9648 24.3572 28.1554 24.3572 29.6239C24.3572 31.0925 25.5477 32.283 27.0162 32.283Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M46.5167 29.6248C47.9853 29.6248 49.1758 28.4343 49.1758 26.9657C49.1758 25.4972 47.9853 24.3066 46.5167 24.3066C45.0482 24.3066 43.8577 25.4972 43.8577 26.9657C43.8577 28.4343 45.0482 29.6248 46.5167 29.6248Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M31.8515 53.1424C33.32 53.1424 34.5105 51.9519 34.5105 50.4833C34.5105 49.0147 33.32 47.8242 31.8515 47.8242C30.3829 47.8242 29.1924 49.0147 29.1924 50.4833C29.1924 51.9519 30.3829 53.1424 31.8515 53.1424Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M51.4774 51.8123C52.946 51.8123 54.1365 50.6218 54.1365 49.1532C54.1365 47.6847 52.946 46.4941 51.4774 46.4941C50.0089 46.4941 48.8184 47.6847 48.8184 49.1532C48.8184 50.6218 50.0089 51.8123 51.4774 51.8123Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M8.65919 29.6248C10.1278 29.6248 11.3183 28.4343 11.3183 26.9657C11.3183 25.4972 10.1278 24.3066 8.65919 24.3066C7.19063 24.3066 6.00012 25.4972 6.00012 26.9657C6.00012 28.4343 7.19063 29.6248 8.65919 29.6248Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M8.65919 55.8065C10.1278 55.8065 11.3183 54.6159 11.3183 53.1474C11.3183 51.6788 10.1278 50.4883 8.65919 50.4883C7.19063 50.4883 6.00012 51.6788 6.00012 53.1474C6.00012 54.6159 7.19063 55.8065 8.65919 55.8065Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M27.0162 73.9998C28.4848 73.9998 29.6753 72.8093 29.6753 71.3407C29.6753 69.8722 28.4848 68.6816 27.0162 68.6816C25.5477 68.6816 24.3572 69.8722 24.3572 71.3407C24.3572 72.8093 25.5477 73.9998 27.0162 73.9998Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M52.9829 11.3182C54.4515 11.3182 55.642 10.1277 55.642 8.65909C55.642 7.19052 54.4515 6 52.9829 6C51.5144 6 50.3239 7.19052 50.3239 8.65909C50.3239 10.1277 51.5144 11.3182 52.9829 11.3182Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M71.3411 29.6248C72.8096 29.6248 74.0001 28.4343 74.0001 26.9657C74.0001 25.4972 72.8096 24.3066 71.3411 24.3066C69.8725 24.3066 68.682 25.4972 68.682 26.9657C68.682 28.4343 69.8725 29.6248 71.3411 29.6248Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M71.3411 55.8065C72.8096 55.8065 74.0001 54.6159 74.0001 53.1474C74.0001 51.6788 72.8096 50.4883 71.3411 50.4883C69.8725 50.4883 68.682 51.6788 68.682 53.1474C68.682 54.6159 69.8725 55.8065 71.3411 55.8065Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M52.9829 73.9998C54.4515 73.9998 55.642 72.8093 55.642 71.3407C55.642 69.8722 54.4515 68.6816 52.9829 68.6816C51.5144 68.6816 50.3239 69.8722 50.3239 71.3407C50.3239 72.8093 51.5144 73.9998 52.9829 73.9998Z" fill="#E4E6E9" stroke="#C9CDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M39.9999 60.7416C51.4547 60.7416 60.7407 51.4556 60.7407 40.0007C60.7407 28.5458 51.4547 19.2598 39.9999 19.2598C28.5451 19.2598 19.2592 28.5458 19.2592 40.0007C19.2592 51.4556 28.5451 60.7416 39.9999 60.7416Z" fill="#3492E9"/> <path d="M32.6089 30.9414C36.8311 30.9414 42.2063 30.9414 42.2063 30.9414C44.459 30.9414 46.2819 32.7643 46.2819 35.0171C46.2819 37.2698 44.5563 39.4556 42.3036 39.4556H38.9023" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <path d="M42.2395 39.4551C44.5251 39.4551 46.3746 41.2279 46.3746 43.4187C46.3746 45.6095 44.5251 47.3824 42.2395 47.3824H32.502" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <path d="M35.0991 31.209V46.8323" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <path d="M40.286 30.9413V27.8945" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <path d="M40.4292 50.3555L40.4292 47.3828" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> </svg>
+                                </div>
+                                <div class="tit">프로그래머블 머니(Programmable Money)</div>
+                                <p>기술을 통해 보조금의 사용 규칙 (기간, 용도, 대상)을 사전에 프로그래밍하여 부정사용을 원천 차단하고, 복잡한 사후 정산 업무를 ‘실시간 자동 정산’으로 대체합니다.</p>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M62.8563 35.2754C62.8563 18.7467 49.4571 5.34761 32.9285 5.34762C16.3998 5.34762 3.00073 18.7467 3.00073 35.2754C3.00073 51.804 16.3998 65.2031 32.9285 65.2031C49.4571 65.2031 62.8563 51.804 62.8563 35.2754Z" fill="#E4E6E9"/> <path d="M52.8313 35.3317C52.8313 24.3235 43.9074 15.3934 32.8992 15.3858C21.891 15.3782 12.967 24.296 12.967 35.3042C12.967 46.3124 21.891 55.2425 32.8992 55.2501C43.9074 55.2576 52.8313 46.3399 52.8313 35.3317Z" fill="url(#paint0_linear_2658_20119)"/> <path d="M40.7342 39.3391C41.6613 40.2663 41.6613 41.7694 40.7342 42.6966C39.807 43.6237 38.3039 43.6237 37.3767 42.6966L25.5405 30.8603C24.6134 29.9332 24.6134 28.4301 25.5405 27.5029C26.4677 26.5758 27.9708 26.5758 28.8979 27.5029L40.7342 39.3391Z" fill="white"/> <path d="M25.1001 39.3391C24.1729 40.2663 24.1729 41.7694 25.1001 42.6966C26.0272 43.6237 27.5304 43.6237 28.4575 42.6966L40.2937 30.8603C41.2208 29.9332 41.2208 28.4301 40.2937 27.5029C39.3666 26.5758 37.8634 26.5758 36.9363 27.5029L25.1001 39.3391Z" fill="white"/> <path d="M67.9942 36.2482C66.086 36.2482 64.5383 37.7954 64.5383 39.6968V32.2653C64.5383 30.3577 62.9907 28.8105 61.0887 28.8105C59.1867 28.8105 57.6329 30.3577 57.6329 32.2653C57.6329 30.3577 56.0852 28.8105 54.1832 28.8105C52.2813 28.8105 50.7274 30.3577 50.7274 32.2653V39.6968C50.7274 37.7892 49.1797 36.2482 47.2715 36.2482C45.3633 36.2482 43.8157 37.7954 43.8157 39.6968V60.8478C43.8157 68.4719 50.0002 74.6544 57.6266 74.6544C65.2531 74.6544 71.4376 68.4719 71.4376 60.8478V39.703C71.4376 37.7954 69.8899 36.2544 67.9818 36.2544L67.9942 36.2482Z" fill="white" stroke="#798190" stroke-width="3" stroke-linejoin="bevel"/> <path d="M50.7266 39.7031V51.7389" stroke="#798190" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M57.6328 32.2695V51.7367" stroke="#798190" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M64.5381 39.7031V51.7389" stroke="#798190" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <path d="M57.6328 74.652H62.4872C66.6454 74.652 71.5619 70.638 73.4265 66.9223C75.776 62.231 77.0005 57.0613 77.0005 51.817C77.0005 50.0337 75.5523 48.5859 73.7684 48.5859C72.1399 48.5859 70.7663 49.7976 70.5612 51.4131L70.3063 53.4388C69.9272 56.4337 67.5528 58.7824 64.5507 59.1304C61.2441 59.5094 58.7454 62.3118 58.7454 65.636" fill="white"/> <path d="M57.6328 74.652H62.4872C66.6454 74.652 71.5619 70.638 73.4265 66.9223C75.776 62.231 77.0005 57.0613 77.0005 51.817C77.0005 50.0337 75.5523 48.5859 73.7684 48.5859C72.1399 48.5859 70.7663 49.7976 70.5612 51.4131L70.3063 53.4388C69.9272 56.4337 67.5528 58.7824 64.5507 59.1304C61.2441 59.5094 58.7454 62.3118 58.7454 65.636" stroke="#798190" stroke-width="3" stroke-linecap="round" stroke-linejoin="bevel"/> <defs> <linearGradient id="paint0_linear_2658_20119" x1="34.7816" y1="54.8638" x2="35.4773" y2="28.4166" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                </div>
+                                <div class="tit">부정사용 원천 차단</div>
+                                <p>스마트 컨트랙트 기반의 <br class="pc"/>정밀한 규칙 제어</p>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12.5676 61.0023V13.0293C12.5676 10.2679 14.8062 8.0293 17.5676 8.0293H62.4325C65.1939 8.0293 67.4325 10.2679 67.4325 13.0293V61.0023" fill="#E4E6E9"/> <path d="M47.5679 23.7024L51.8096 27.8469L57.9733 20.2793" stroke="url(#paint0_linear_2658_20123)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/> <path d="M42.6763 32.4316H22.9733" stroke="#C9CDD3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/> <path d="M36.9701 23.2227H22.9733" stroke="#C9CDD3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/> <path d="M12.5676 37.4492L5 42.1789V56.3681H12.5676V37.4492Z" fill="#798190"/> <path d="M67.4324 37.4492L75 42.1789V56.3681H67.4324V37.4492Z" fill="#798190"/> <path d="M57.9163 42.6445C57.9163 49.122 52.4818 54.3738 45.781 54.3738H34.2165C27.5132 54.3738 22.0812 49.122 22.0812 42.6445H5V68.5078C5 70.4189 6.60292 71.9689 8.58226 71.9689H71.4177C73.3971 71.9689 75 70.4189 75 68.5078V42.6445H57.9188H57.9163Z" fill="#798190"/> <defs> <linearGradient id="paint0_linear_2658_20123" x1="47.669" y1="24.4204" x2="54.5685" y2="24.6635" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                </div>
+                                <div class="tit">운영 효율성 극대화</div>
+                                <p>결제 즉시 이뤄지는 <br class="pc"/>자동 정산 및 투명한 이력 관리</p>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M36.0771 11.5H22.0771C16.5543 11.5 12.0771 15.9772 12.0771 21.5V36.5" stroke="url(#paint0_linear_2658_20126)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 5"/> <path d="M43.0771 70.5H58.0771C63.6 70.5 68.0771 66.0228 68.0771 60.5L68.0771 45.5" stroke="url(#paint1_linear_2658_20126)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 5"/> <path d="M75.9679 8.9305C75.9679 8.13793 75.33 7.5 74.5374 7.5H43.4627C42.6702 7.5 42.0322 8.13793 42.0322 8.9305V26.9471H75.9679V8.9305Z" fill="#E4E6E9"/> <path d="M42.032 26.957V29.1221C42.032 29.9147 42.6699 30.5526 43.4625 30.5526H74.5275C75.3201 30.5526 75.958 29.9147 75.958 29.1221V26.957H42.032Z" fill="#798190"/> <path d="M64.643 34.4769H53.1797L56.2533 30.5527H61.5694L64.643 34.4769Z" fill="#C9CDD3"/> <rect x="50.3928" y="33.8281" width="16.7208" height="1.85787" rx="0.928934" fill="#798190"/> <path d="M32.3009 40.5H6.76355C5.25739 40.5 4.03223 41.7739 4.03223 43.3399V47.6601C4.03223 49.23 5.25739 50.5 6.76355 50.5H32.3009C33.8108 50.5 35.0322 49.2261 35.0322 47.6601V43.3399C35.0322 41.77 33.8071 40.5 32.3009 40.5ZM8.07864 46.7291C7.42672 46.7291 6.89469 46.1798 6.89469 45.4981C6.89469 44.8163 7.42297 44.267 8.07864 44.267C8.73431 44.267 9.26259 44.8163 9.26259 45.4981C9.26259 46.1798 8.73431 46.7291 8.07864 46.7291ZM12.4548 46.7291C11.8028 46.7291 11.2708 46.1798 11.2708 45.4981C11.2708 44.8163 11.7991 44.267 12.4548 44.267C13.1104 44.267 13.6387 44.8163 13.6387 45.4981C13.6387 46.1798 13.1104 46.7291 12.4548 46.7291Z" fill="#C9CDD3"/> <path d="M32.3009 51.5H6.76355C5.25364 51.5 4.03223 52.7739 4.03223 54.3399V58.6601C4.03223 60.23 5.25739 61.5 6.76355 61.5H32.3009C33.8108 61.5 35.0322 60.2261 35.0322 58.6601V54.3399C35.0322 52.77 33.8071 51.5 32.3009 51.5ZM8.07864 57.733C7.42672 57.733 6.89469 57.1837 6.89469 56.5019C6.89469 55.8202 7.42297 55.2709 8.07864 55.2709C8.73431 55.2709 9.26259 55.8202 9.26259 56.5019C9.26259 57.1837 8.73431 57.733 8.07864 57.733ZM12.4548 57.733C11.8028 57.733 11.2708 57.1837 11.2708 56.5019C11.2708 55.8202 11.7991 55.2709 12.4548 55.2709C13.1104 55.2709 13.6387 55.8202 13.6387 56.5019C13.6387 57.1837 13.1104 57.733 12.4548 57.733Z" fill="#798190"/> <path d="M32.3009 62.5H6.76355C5.25364 62.5 4.03223 63.7739 4.03223 65.3399V69.6601C4.03223 71.23 5.25739 72.5 6.76355 72.5H32.3009C33.8108 72.5 35.0322 71.2261 35.0322 69.6601V65.3399C35.0322 63.77 33.8071 62.5 32.3009 62.5ZM8.07864 68.7291C7.42672 68.7291 6.89469 68.1798 6.89469 67.4981C6.89469 66.8163 7.42297 66.267 8.07864 66.267C8.73431 66.267 9.26259 66.8163 9.26259 67.4981C9.26259 68.1798 8.73431 68.7291 8.07864 68.7291ZM12.4548 68.7291C11.8028 68.7291 11.2708 68.1798 11.2708 67.4981C11.2708 66.8163 11.7991 66.267 12.4548 66.267C13.1104 66.267 13.6387 66.8163 13.6387 67.4981C13.6387 68.1798 13.1104 68.7291 12.4548 68.7291Z" fill="#C9CDD3"/> <path d="M39.5265 54.053C46.9969 54.053 53.053 47.9969 53.053 40.5265C53.053 33.056 46.9969 27 39.5265 27C32.056 27 26 33.056 26 40.5265C26 47.9969 32.056 54.053 39.5265 54.053Z" fill="url(#paint2_linear_2658_20126)"/> <path d="M32.7146 44.2863L36.9345 39.2443L41.1543 43.2779L46.4291 35.7148" stroke="white" stroke-width="2"/> <ellipse cx="32.7143" cy="44.2866" rx="1.71432" ry="1.71429" fill="white"/> <ellipse cx="36.8286" cy="39.142" rx="1.71432" ry="1.71429" fill="white"/> <ellipse cx="41.0293" cy="43.4291" rx="1.71432" ry="1.71429" fill="white"/> <ellipse cx="46.257" cy="35.7143" rx="1.71432" ry="1.71429" fill="white"/> <defs> <linearGradient id="paint0_linear_2658_20126" x1="12.3105" y1="25.1806" x2="28.2342" y2="25.5722" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint1_linear_2658_20126" x1="67.8341" y1="56.8194" x2="51.2477" y2="56.3948" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint2_linear_2658_20126" x1="26" y1="40.5265" x2="53.053" y2="40.5265" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                </div>
+                                <div class="tit">완벽한 연동 지원</div>
+                                <p>SSIS(자격 검증) 등 기존 복지 시스템 및 <br/>차세대 결제 플랫폼(CBDC 등)과의 안정적인 연동을 보장합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //content -->
+
+        <div id="footer">
+            <div class="ft_inner">
+                <div class="ft_top">
+                    <div class="ft_logo">
+                        <img src="../../assets/images/common/ft_logo.png" alt="TRIONSOFT">
+                    </div>
+                    <div id="to_top_wrap">
+                        <button type="button" id="to_top"><span>TOP</span></button>
+                    </div>
+                </div>
+                <div class="ft_bottom">
+                    <div class="ft_info">
+                        <div class="info ads">서울특별시 강남구 강남대로 566, 5층 (논현동, 신영와코루빌딩) 트라이언소프트
+                        </div>
+                        <div class="info">TEL : 02-3444-6327</div>
+                        <div class="info">FAX : 02-3444-6329</div>
+                        <div class="info">E-MAIL : trionsoft@trionsoft.co.kr</div>
+                    </div>
+                    <div class="ft_copy">COPYRIGHTⒸTRIONSOFT INC. ALL RIGHTS RESERVED.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/common.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const items = document.querySelectorAll('.toggle_items .item');
+
+            items.forEach(function (item) {
+                const btn = item.querySelector('.toggle_btn');
+                const content = item.querySelector('.toggle_content');
+                if (!btn || !content) return;
+
+                content.style.maxHeight = '0px';
+
+                btn.addEventListener('click', function () {
+                    const isActive = btn.closest('.item').classList.contains('active');
+
+                    if (isActive) {
+                        item.classList.remove('active');
+                        content.style.maxHeight = '0px';
+                    } else {
+                        item.classList.add('active');
+                        content.style.maxHeight = content.scrollHeight + 50 + 'px';
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
