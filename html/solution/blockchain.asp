@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="referrer" content="always">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,viewport-fit:cover">
+<!-- No cache -->
+<meta http-equiv="Expires" content="-1">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
+<!-- Summary -->
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta property="og:title" content=""/>
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content=""/>
+<meta property="og:description" content="" />
+<link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
+<title>트라이언소프트</title>
+<link rel="stylesheet" type="text/css" href="../../assets/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
+<link rel="stylesheet" type="text/css" href="../../assets/css/layout.css" />
+<link rel="stylesheet" type="text/css" href="../../assets/css/content.css" />
+<link rel="stylesheet" href="../../assets/css/splide.min.css">
+<script src="../../assets/js/splide.min.js"></script>
+<script src="../../assets/js/splide-extension-grid.min.js"></script>
+</head>
+<body>
+
+<!-- wrap -->
+<div id="layout">
+	<h1 id="header_h1">트라이언소프트</h1>
+	<div id="skip_to_container">
+		<!-- skip navigation -->
+		<a href="#content">내용 바로가기</a>
+		<a href="#nav">서비스메뉴 바로가기</a>
+	</div>
+	<hr class="hide" />	
+
+	<!-- header -->
+	<div id="header">
+		<div class="header_inner"> 
+			<div id="logo">
+				<a href="javascript:;"><img src="../../assets/images/common/logo.png" alt="TRIONSOFT" /></a>
+			</div>
+			<ul id="nav">
+				<li>
+					<a href="javascript:;">Company</a>
+					<ul>
+						<li><a href="javascript:;">회사소개</a></li>
+						<li><a href="javascript:;">협력사</a></li>
+						<li><a href="javascript:;">채용안내</a></li>
+						<li><a href="javascript:;">오시는 길</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">Business</a>
+					<ul>
+						<li><a href="javascript:;">AI/Bigdata</a></li>
+						<li><a href="javascript:;">디지털 금융</a></li>
+						<li><a href="javascript:;">바우처/보조금</a></li>
+						<li><a href="javascript:;">ISP/BPR</a></li>
+						<li><a href="javascript:;">시스템통합</a></li>
+						<li><a href="javascript:;">산업별 특화</a></li>
+						<li><a href="javascript:;">국민행복몰</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">Solution</a>
+					<ul>
+						<li><a href="javascript:;">AI</a></li>
+						<li><a href="javascript:;">Blockchain</a></li>
+						<li><a href="javascript:;">국고 보조금 관리시스템</a></li>
+						<li><a href="javascript:;">유가보조금 관리시스템</a></li>
+						<li><a href="javascript:;">주유 RFID 관리시스템</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:;">Contact Us</a>
+					<ul>
+						<li><a href="javascript:;">문의하기</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="hd_right">
+				<div class="hd_language">
+					<div class="item"><a href="javascript:;" class="active">KR</a></div>
+					<div class="item"><a href="javascript:;">EN</a></div>
+				</div>
+				<button type="button" id="nav_all_button">
+					<strong></strong>
+					<strong></strong>
+					<strong></strong>
+					<span class="sound_only">전체메뉴</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->	
+
+	<!-- 전체메뉴 -->
+	<div id="nav_all_wrap">
+		<ul>
+			<li>
+				<a href="javascript:;" class="arrow"><span>Company</span></a>
+				<ul>
+					<li><a href="javascript:;">회사소개</a></li>
+					<li><a href="javascript:;">협력사</a></li>
+					<li><a href="javascript:;">채용안내</a></li>
+					<li><a href="javascript:;">오시는 길</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="javascript:;" class="arrow"><span>Business</span></a>
+				<ul>
+					<li><a href="javascript:;">AI/Bigdata</a></li>
+					<li><a href="javascript:;">디지털 금융</a></li>
+					<li><a href="javascript:;">바우처/보조금</a></li>
+					<li><a href="javascript:;">ISP/BPR</a></li>
+					<li><a href="javascript:;">시스템통합</a></li>
+					<li><a href="javascript:;">산업별 특화</a></li>
+					<li><a href="javascript:;">국민행복몰</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="javascript:;" class="arrow"><span>Solution</span></a>
+				<ul>
+					<li><a href="javascript:;">AI</a>
+						<ul>
+							<li><a href="javascript:;">AI융합 EAI 솔루션</a></li>
+							<li><a href="javascript:;">TS GenAI Gateway </a></li>
+							<li><a href="javascript:;">TS AI Chatbot</a></li>
+							<li><a href="javascript:;">TS AI Visons SR</a></li>
+							<li><a href="javascript:;">TS AI Visons 검사</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:;">Blockchain</a>
+						<ul>
+							<li><a href="javascript:;">TS Wallet</a></li>
+							<li><a href="javascript:;">TS Coin</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:;">국고 보조금 관리시스템</a></li>
+					<li><a href="javascript:;">유가보조금 관리시스템</a></li>
+					<li><a href="javascript:;">주유 RFID 관리시스템</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="javascript:;" class="arrow"><span>Contact Us</span></a>
+				<ul>
+					<li><a href="javascript:;">문의하기</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+
+    <div class="sub_top">
+        <div class="page_location scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_3">
+            <div class="item"> <a href="javascript:;" class="home">홈으로</a> </div>
+            <div class="item"> <a href="javascript:;">Solution</a> </div>
+            <div class="item"> <a href="javascript:;">Blockchain</a> </div>
+        </div>
+        <h2 class="scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_5">Blockchain</h2>
+
+        <div class="local_nav">
+            <div class="item"><a href="javascript:;"><span>AI</span></a></div>
+            <div class="item"><a href="javascript:;"  class="active"><span>Blockchain</span></a></div>
+            <div class="item"><a href="javascript:;"><span>국고 보조금 관리시스템</span></a></div>
+            <div class="item"><a href="javascript:;"><span>유가보조금 관리시스템</span></a></div>
+            <div class="item"><a href="javascript:;"><span>주유 RFID 관리시스템</span></a></div>
+        </div>
+    </div>
+
+	<div class="mobile_tab_nav">
+		<div class="item home"><a href="javascript:;">홈으로</a></div>
+		<div class="item">
+			<a href="javascript:;"><span>Solution</span></a>
+			<ul>
+				<li><a href="javascript:;">Company</a></li>
+				<li><a href="javascript:;">Business</a></li>
+				<li><a href="javascript:;" class="active">Solution</a></li>
+				<li><a href="javascript:;">Blockchain</a></li>
+				<li><a href="javascript:;">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="item">
+			<a href="javascript:;"><span>Blockchain</span></a>
+			<ul>
+				<li><a href="javascript:;">AI</a></li>
+				<li><a href="javascript:;" class="active">Blockchain</a></li>
+				<li><a href="javascript:;">국고 보조금 관리시스템</a></li>
+				<li><a href="javascript:;">유가보조금 관리시스템</a></li>
+				<li><a href="javascript:;">주유 RFID 관리시스템</a></li>
+			</ul>
+		</div>
+	</div>
+    
+	<!-- content -->
+	<div id="content" class="sub_content" style="margin-bottom:0;">
+        <div class="sub_title_visual">
+			<div class="container">
+                <div class="title_area scroll_reveal to_right show_center">
+                    <div class="cate">Blockchain</div>
+                    <div class="title">블록체인으로 완성하는 <br class="pc"/>차세대 금융 시스템</div>
+                    <p>복잡했던 거래를 간결하게, 느렸던 속도를 빠르게. <br/>블록체인 기술로 안전하면서도효율과 신뢰를 동시에 잡는 미래형 금융을 시작하세요.</p>
+                </div>
+                <div class="bg scroll_reveal to_left show_center pc" style="background-image:url('../../assets/images/content/sub_visual_blockchain.jpg')"></div>
+                <div class="bg scroll_reveal to_left show_center mobile" style="background-image:url('../../assets/images/content/sub_visual_blockchain_mobile.jpg')"></div>
+            </div>
+		</div>
+
+        <div class="tab_wrap">
+            <div class="sticky_sentinel"></div>
+            <div class="tab_wrap_nav sticky_btns pc">
+                <div class="inner">
+                <div class="item"><button type="button" class="active">TS Wallet</button></div>
+                <div class="item"><button type="button">TS Coin</button></div>
+                </div>
+            </div>
+            <div class="tab_wrap_nav_mobile sticky_btns mobile">
+                <a href="javascript:;"><span>TS Wallet</span></a>
+                <ul>
+                    <li><a href="javascript:;">TS Wallet</a></li>
+                    <li><a href="javascript:;">TS Coin</a></li>
+                </ul>
+            </div>
+
+            <div class="tab_contents">
+
+                <!-- TS Wallet -->
+                <div class="tab_content">
+                    <div class="sub_section scroll_reveal to_bottom show_center">
+                        <div class="container">
+                            <div class="title_area">
+                                <strong>기업을 위한 가장 안전한 디지털 자산 관리 솔루션</strong>
+                                <h3>TS Wallet</h3>
+                                <p>복잡한 디지털 자산 관리, 높은 수수료, 그리고 보안 문제로 고민하고 있습니까?<br/> TS Wallet은 블록체인 기술을 기반으로 암호화폐와 디지털 자산을 안전하게 보관하고 관리하는 기업용 디지털 지갑 솔루션입니다.<br/> 마치 기업만을 위한 디지털 금고처럼, 모든 거래를 쉽고 안전하게 만듭니다.</p>
+                            </div>
+                            <div class="blue_card_items">
+                                <div class="title">
+                                    <strong>TS Wallet, 왜 필요한가요?</strong>
+                                    <p>기존의 디지털 자산 관리 방식은 복잡하고, 보안에 취약하며, 기업의 특수한 요구사항을 충족하지 못했습니다.<br/> TS Wallet은 이러한 문제점을 해결하여 기업이 디지털 자산을 효과적으로 활용할 수 있도록 돕습니다.</p>
+                                </div>
+                                <div class="items">
+                                    <div class="item">
+                                        <div class="num">01</div>
+                                        <div class="tit">다중 보안 체계</div>
+                                        <div class="icon">
+                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M46.4019 3.4143C45.6373 2.86868 44.5975 2.85858 43.8227 3.40419C37.7161 7.65798 29.1833 10.4568 19.6208 10.9317C18.5096 10.9822 17.6227 11.8713 17.6125 12.9727L17.5003 34.3224C17.4595 42.5572 21.3743 50.3069 28.0415 55.2074L43.5678 66.6047C44.2814 67.1301 45.2601 67.1301 45.9737 66.6148L61.6224 55.3791C68.3508 50.5494 72.3471 42.83 72.3879 34.6053L72.5 13.2455C72.5 12.1441 71.6233 11.2449 70.5121 11.1843C60.9496 10.6083 52.4575 7.7287 46.3917 3.4143H46.4019Z" fill="#E4E6E9"/> <path d="M36.4019 13.4143C35.6373 12.8687 34.5975 12.8586 33.8227 13.4042C27.7161 17.658 19.1833 20.4568 9.62079 20.9317C8.50958 20.9822 7.62265 21.8713 7.61246 22.9727L7.50032 44.3224C7.45954 52.5572 11.3743 60.3069 18.0415 65.2074L33.5678 76.6047C34.2814 77.1301 35.2601 77.1301 35.9737 76.6148L51.6224 65.3791C58.3508 60.5494 62.3471 52.83 62.3879 44.6053L62.5 23.2455C62.5 22.1441 61.6233 21.2449 60.5121 21.1843C50.9496 20.6083 42.4575 17.7287 36.3917 13.4143H36.4019Z" fill="url(#paint0_linear_2658_19728)"/> <path d="M45.4922 36.3887L31.7936 50.3887L25.4922 43.9551" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/> <defs> <linearGradient id="paint0_linear_2658_19728" x1="35.9855" y1="12.4713" x2="33.7053" y2="65.8816" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                        </div>
+                                        <p>해킹 위험을 최소화하는 다중 서명(Multi-Sig) 및 하드웨어 보안 모듈(HSM) 옵션으로 자산을 완벽하게 보호합니다.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="num">02</div>
+                                        <div class="tit">비용 및 속도 최적화</div>
+                                        <div class="icon">
+                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M55.0986 14.2383H17.7098C14.5359 14.2383 11.9629 16.8113 11.9629 19.9853V57.375C11.9629 60.549 14.5359 63.122 17.7098 63.122H55.0986C58.2725 63.122 60.8455 60.549 60.8455 57.375V19.9853C60.8455 16.8113 58.2725 14.2383 55.0986 14.2383Z" fill="#C9CDD3"/> <path d="M54.8496 51.6501V25.7207C54.8496 22.6961 52.3977 20.2441 49.3731 20.2441L23.4444 20.2441C20.4198 20.2441 17.9679 22.6961 17.9679 25.7207V51.6501C17.9679 54.6747 20.4198 57.1267 23.4444 57.1267H49.3731C52.3977 57.1267 54.8496 54.6747 54.8496 51.6501Z" fill="#E4E6E9"/> <path d="M20.3113 5C19.1394 5 18.1929 5.94657 18.1929 7.11852V14.2404H22.4411V7.11852C22.4411 5.94657 21.4945 5 20.3226 5H20.3113Z" fill="#E4E6E9"/> <path d="M28.3568 5C27.1848 5 26.2383 5.94657 26.2383 7.11852V14.2404H30.4865V7.11852C30.4865 5.94657 29.5399 5 28.368 5H28.3568Z" fill="#E4E6E9"/> <path d="M36.4034 5C35.2315 5 34.2849 5.94657 34.2849 7.11852V14.2404H38.5331V7.11852C38.5331 5.94657 37.5866 5 36.4147 5H36.4034Z" fill="#E4E6E9"/> <path d="M44.4488 5C43.2769 5 42.3303 5.94657 42.3303 7.11852V14.2404H46.5785V7.11852C46.5785 5.94657 45.632 5 44.4601 5H44.4488Z" fill="#E4E6E9"/> <path d="M52.493 5C51.3211 5 50.3745 5.94657 50.3745 7.11852V14.2404H54.6227V7.11852C54.6227 5.94657 53.6762 5 52.5042 5H52.493Z" fill="#E4E6E9"/> <path d="M52.493 72.3536C53.6649 72.3536 54.6115 71.4071 54.6115 70.2351V63.1133H50.3633V70.2351C50.3633 71.4071 51.3098 72.3536 52.4818 72.3536H52.493Z" fill="#E4E6E9"/> <path d="M44.4488 72.3536C45.6207 72.3536 46.5673 71.4071 46.5673 70.2351V63.1133H42.3191V70.2351C42.3191 71.4071 43.2656 72.3536 44.4376 72.3536H44.4488Z" fill="#E4E6E9"/> <path d="M36.4034 72.3536C37.5753 72.3536 38.5219 71.4071 38.5219 70.2351V63.1133H34.2737V70.2351C34.2737 71.4071 35.2202 72.3536 36.3922 72.3536H36.4034Z" fill="#E4E6E9"/> <path d="M28.3568 72.3536C29.5287 72.3536 30.4753 71.4071 30.4753 70.2351V63.1133H26.2271V70.2351C26.2271 71.4071 27.1736 72.3536 28.3455 72.3536H28.3568Z" fill="#E4E6E9"/> <path d="M20.3116 72.3536C21.4835 72.3536 22.4301 71.4071 22.4301 70.2351V63.1133H18.1819V70.2351C18.1819 71.4071 19.1284 72.3536 20.3004 72.3536H20.3116Z" fill="#E4E6E9"/> <path d="M2.72241 54.7763C2.72241 55.9482 3.66896 56.8948 4.84088 56.8948H11.9626V52.6465H4.84088C3.66896 52.6465 2.72241 53.5931 2.72241 54.765V54.7763Z" fill="#E4E6E9"/> <path d="M2.72241 46.7294C2.72241 47.9013 3.66896 48.8479 4.84088 48.8479H11.9626V44.5996H4.84088C3.66896 44.5996 2.72241 45.5462 2.72241 46.7181V46.7294Z" fill="#E4E6E9"/> <path d="M2.72241 38.6825C2.72241 39.8545 3.66896 40.801 4.84088 40.801H11.9626V36.5527H4.84088C3.66896 36.5527 2.72241 37.4993 2.72241 38.6713V38.6825Z" fill="#E4E6E9"/> <path d="M2.72241 30.6396C2.72241 31.8115 3.66896 32.7581 4.84088 32.7581H11.9626V28.5098H4.84088C3.66896 28.5098 2.72241 29.4563 2.72241 30.6283V30.6396Z" fill="#E4E6E9"/> <path d="M2.72241 22.5927C2.72241 23.7646 3.66896 24.7112 4.84088 24.7112H11.9626V20.4629H4.84088C3.66896 20.4629 2.72241 21.4095 2.72241 22.5814V22.5927Z" fill="#E4E6E9"/> <path d="M70.0844 22.5931C70.0844 21.4212 69.1378 20.4746 67.9659 20.4746H60.8442V24.7229H67.9659C69.1378 24.7229 70.0844 23.7763 70.0844 22.6044V22.5931Z" fill="#E4E6E9"/> <path d="M70.0841 30.64C70.0841 29.4681 69.1376 28.5215 67.9657 28.5215H60.844V32.7698H67.9657C69.1376 32.7698 70.0841 31.8232 70.0841 30.6513V30.64Z" fill="#E4E6E9"/> <path d="M70.0841 38.6849C70.0841 37.513 69.1376 36.5664 67.9657 36.5664H60.844V40.8147H67.9657C69.1376 40.8147 70.0841 39.8681 70.0841 38.6962V38.6849Z" fill="#E4E6E9"/> <path d="M70.0841 46.7298C70.0841 45.5579 69.1376 44.6113 67.9657 44.6113H60.844V48.8596H67.9657C69.1376 48.8596 70.0841 47.9131 70.0841 46.7411V46.7298Z" fill="#E4E6E9"/> <path d="M70.0841 54.7767C70.0841 53.6048 69.1376 52.6582 67.9657 52.6582H60.844V56.9065H67.9657C69.1376 56.9065 70.0841 55.9599 70.0841 54.788V54.7767Z" fill="#E4E6E9"/> <path d="M48.5506 23.7402H38.9724C37.4913 23.7402 36.2905 24.941 36.2905 26.4222V36.0006C36.2905 37.4818 37.4913 38.6826 38.9724 38.6826H48.5506C50.0318 38.6826 51.2325 37.4818 51.2325 36.0006V26.4222C51.2325 24.941 50.0318 23.7402 48.5506 23.7402Z" fill="#798190"/> <path d="M33.6087 38.6816H24.0305C22.5494 38.6816 21.3486 39.8824 21.3486 41.3636V50.942C21.3486 52.4232 22.5494 53.624 24.0305 53.624H33.6087C35.0899 53.624 36.2906 52.4232 36.2906 50.942V41.3636C36.2906 39.8824 35.0899 38.6816 33.6087 38.6816Z" fill="#798190"/> <path d="M59.2331 75.0002C69.1989 75.0002 77.2777 66.9212 77.2777 56.9552C77.2777 46.9892 69.1989 38.9102 59.2331 38.9102C49.2673 38.9102 41.1885 46.9892 41.1885 56.9552C41.1885 66.9212 49.2673 75.0002 59.2331 75.0002Z" fill="#798190"/> <path d="M59.2331 75.0002C69.1989 75.0002 77.2777 66.9212 77.2777 56.9552C77.2777 46.9892 69.1989 38.9102 59.2331 38.9102C49.2673 38.9102 41.1885 46.9892 41.1885 56.9552C41.1885 66.9212 49.2673 75.0002 59.2331 75.0002Z" fill="url(#paint0_linear_2658_19735)"/> <path d="M50.2109 57.8965H53.1594M65.3129 57.8965H68.2556M66.0047 52.4434L62.7134 62.5937L59.2336 52.4434L55.7538 62.5937L52.4625 52.4434" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/> <defs> <linearGradient id="paint0_linear_2658_19735" x1="63.5362" y1="39.1936" x2="62.6086" y2="68.589" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                        </div>
+                                        <p>기존의 복잡하고 높은 수수료의 송금 방식을 벗어나, 거의 무료에 가까운 수수료로 실시간 글로벌 송금을 가능하게 합니다.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="num">03</div>
+                                        <div class="tit">투명성 및 감사 추적</div>
+                                        <div class="icon">
+                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M66.2946 41.9975L40.3007 11.2759L14.4192 32.2061L13.0044 30.4656L40.5927 8.1543L68.0125 40.549L66.2946 41.9975Z" fill="#798190"/> <path d="M13.7161 35.0486C15.7709 35.0486 17.4327 33.3868 17.4327 31.3319C17.4327 29.2771 15.7709 27.6152 13.7161 27.6152C11.6613 27.6152 9.99951 29.2771 9.99951 31.3319C9.99951 33.3868 11.6613 35.0486 13.7161 35.0486Z" fill="#C9CDD3"/> <path d="M40.4525 13.4334C42.5073 13.4334 44.1691 11.7715 44.1691 9.71669C44.1691 7.66184 42.5073 6 40.4525 6C38.3977 6 36.7358 7.66184 36.7358 9.71669C36.7358 11.7715 38.3977 13.4334 40.4525 13.4334Z" fill="#C9CDD3"/> <path d="M67.164 44.9842C69.2188 44.9842 70.8806 43.3223 70.8806 41.2675C70.8806 39.2126 69.2188 37.5508 67.164 37.5508C65.1092 37.5508 63.4474 39.2126 63.4474 41.2675C63.4474 43.3223 65.1092 44.9842 67.164 44.9842Z" fill="#C9CDD3"/> <path d="M19.2158 47.2754H7.34731C5.91007 47.2754 4.75354 48.4432 4.75354 49.8692V71.4058C4.75354 72.843 5.9213 73.9996 7.34731 73.9996H19.2045C20.6418 73.9996 21.7983 72.8318 21.7983 71.4058V49.8692C21.7983 48.4319 20.6306 47.2754 19.2045 47.2754H19.2158Z" fill="url(#paint0_linear_2658_19742)"/> <path d="M45.9409 26.793H34.0836C32.6464 26.793 31.4899 27.9607 31.4899 29.3868V71.382C31.4899 72.8192 32.6576 73.9758 34.0836 73.9758H45.9409C47.3781 73.9758 48.5346 72.808 48.5346 71.382V29.398C48.5346 27.9607 47.3669 26.8042 45.9409 26.8042V26.793Z" fill="url(#paint1_linear_2658_19742)"/> <path d="M72.6523 54.9785H60.7951C59.3578 54.9785 58.2013 56.1463 58.2013 57.5723V71.3836C58.2013 72.8209 59.3691 73.9774 60.7951 73.9774H72.6523C74.0895 73.9774 75.2461 72.8096 75.2461 71.3836V57.5723C75.2461 56.1351 74.0783 54.9785 72.6523 54.9785Z" fill="url(#paint2_linear_2658_19742)"/> <defs> <linearGradient id="paint0_linear_2658_19742" x1="15.3083" y1="47.4853" x2="14.2329" y2="69.2206" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint1_linear_2658_19742" x1="42.0446" y1="27.1635" x2="38.7096" y2="65.3409" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint2_linear_2658_19742" x1="68.756" y1="55.1277" x2="68.2118" y2="70.5986" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                        </div>
+                                        <p>모든 거래 내역이 블록체인에 기록되어 완벽한 투명성을 제공하며, 감사 추적 기능으로 기업 내부의 컴플라이언스 기준을 충족합니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub_section scroll_reveal to_bottom show_center">
+                        <div class="container">
+                            <div class="title_sub">
+                                <h4>주요 기능 및 특징</h4>
+                                <p>TS Wallet은 기업의 디지털 자산 운영을 위한 핵심 기능을 제공합니다.</p>
+                            </div>
+                            <div class="check_grids">
+                                <div class="item">
+                                    <div class="tit">멀티체인 지원</div>
+                                    <p>비트코인, 이더리움 등 다양한 블록체인 네트워크의 디지털 자산을 하나의 지갑에서 통합 관리할 수 있습니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="tit">기업 관리 시스템</div>
+                                    <p>권한 관리, 승인 프로세스, 감사 로그 기능을 통해 기업의 관리 기준에 최적화된 운영 환경을 구축합니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="tit">자동화된 거래</div>
+                                    <p>스마트 컨트랙트를 활용한 자동화된 거래 설정으로 업무 효율을 극대화합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub_section scroll_reveal to_bottom show_center">
+                        <div class="container">
+                            <div class="title_sub">
+                                <h4>도입 효과 및 적용 분야</h4>
+                                <p>TS Wallet은 단순히 디지털 자산을 보관하는 것을 넘어, 기업의 새로운 비즈니스 모델을 가능하게 합니다.</p>
+                            </div>
+                            <div class="icon_blue_items">
+                                <div class="item">
+                                    <div class="icon">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="80" height="80" rx="40" fill="url(#paint0_linear_2658_19758)"/> <path d="M42.5049 22.0156C42.5155 22.0234 42.5225 22.0323 42.5273 22.042C42.5323 22.0519 42.5361 22.0647 42.5361 22.0801V55.8916C42.5361 55.9094 42.5294 55.9275 42.5127 55.9443C42.4959 55.9612 42.4778 55.9678 42.46 55.9678C42.4421 55.9678 42.4241 55.9612 42.4072 55.9443C42.3905 55.9275 42.3838 55.9094 42.3838 55.8916V22.1709L41.085 22.5781L27.2891 26.9043L26.5879 27.124V55.8916C26.5879 55.9094 26.5812 55.9275 26.5645 55.9443C26.5589 55.9499 26.5527 55.9536 26.5469 55.957H26.5117C26.4939 55.957 26.4758 55.9504 26.459 55.9336C26.4422 55.9168 26.4355 55.8986 26.4355 55.8809V27.0625L26.4482 27.0195C26.4542 27.0115 26.464 27.0014 26.4844 26.9951L26.4873 26.9941L42.4238 22.0039L42.4248 22.0049C42.4582 21.9949 42.4866 22.0023 42.5049 22.0156Z" fill="#357FD8" stroke="white" stroke-width="2"/> <path d="M53.7266 28.167L53.2021 27.8838L43.291 22.5244L43.2842 22.5205C43.2559 22.5054 43.2367 22.4665 43.2607 22.4229L43.2686 22.4092C43.2837 22.3809 43.3225 22.3617 43.3662 22.3857L43.3721 22.3896L53.8428 28.0605L53.8506 28.0645C53.8541 28.0664 53.8607 28.0711 53.8672 28.082C53.874 28.0935 53.8788 28.1095 53.8789 28.1279V55.8926C53.8789 55.9104 53.8723 55.9285 53.8555 55.9453C53.8499 55.9509 53.8437 55.9546 53.8379 55.958H53.8027C53.785 55.958 53.7668 55.9513 53.75 55.9346C53.7332 55.9178 53.7266 55.8996 53.7266 55.8818V28.167Z" fill="#357FD8" stroke="white" stroke-width="2"/> <path d="M53.8027 55.8047H60.5283C60.5461 55.8047 60.5642 55.8114 60.5811 55.8281C60.5979 55.845 60.6045 55.863 60.6045 55.8809C60.6045 55.8987 60.5979 55.9168 60.5811 55.9336C60.5643 55.9503 60.5461 55.957 60.5283 55.957H53.8027C53.7849 55.957 53.7668 55.9504 53.75 55.9336C53.7332 55.9168 53.7266 55.8987 53.7266 55.8809C53.7266 55.863 53.7332 55.845 53.75 55.8281C53.7668 55.8113 53.7849 55.8047 53.8027 55.8047Z" fill="#357FD8" stroke="white" stroke-width="2"/> <path d="M19.4092 55.8477H46.7109C46.7287 55.8477 46.7469 55.8544 46.7637 55.8711C46.7804 55.8879 46.7871 55.9061 46.7871 55.9238C46.7871 55.9416 46.7804 55.9598 46.7637 55.9766C46.7469 55.9933 46.7287 55.9999 46.7109 56H19.4092C19.3914 56 19.3733 55.9934 19.3564 55.9766C19.3396 55.9597 19.333 55.9416 19.333 55.9238C19.333 55.906 19.3396 55.8879 19.3564 55.8711C19.3733 55.8543 19.3914 55.8477 19.4092 55.8477Z" fill="#357FD8" stroke="white" stroke-width="2"/> <path d="M31.9902 44.9902V46.2178H31.8379V44.9902H31.9902ZM31.9902 38.5332V39.7617H31.8379V38.5332H31.9902ZM31.9902 32.0762V33.3047H31.8379V32.0762H31.9902Z" fill="#357FD8" stroke="white" stroke-width="2"/> <path d="M37.6396 44.1836V45.4111H37.4873V44.1836H37.6396ZM37.6396 37.7266V38.9551H37.4873V37.7266H37.6396ZM37.6396 31.2695V32.498H37.4873V31.2695H37.6396Z" fill="#357FD8" stroke="white" stroke-width="2"/> <path d="M18.8711 55.9665H26.404M26.404 55.9665V27.449L42.546 22.0684M26.404 55.9665H42.546M42.546 22.0684L53.8454 27.9871V55.9665H60.8403M42.546 22.0684V55.9665M47.3886 55.9665H42.546M31.7847 31.2155V34.4439M37.7034 30.1394V33.3678M31.7847 37.6723V40.9007M37.7034 36.5962V39.8245M31.7847 44.1291V47.3575M37.7034 43.0529V46.2813" stroke="white" stroke-width="2"/> <defs> <linearGradient id="paint0_linear_2658_19758" x1="40.7" y1="3.4814e-06" x2="38.6243" y2="65.7311" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                    </div>
+                                    <div class="tit">기업 자금 관리</div>
+                                    <p>암호화폐를 포함한 다양한 디지털 자산을 <strong>체계적으로 관리하고 운용</strong>할 수 있습니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="80" height="80" rx="40" fill="url(#paint0_linear_2658_19772)"/> <circle cx="40" cy="40" r="18" stroke="white" stroke-width="2"/> <path d="M40.2469 21.9492C36.8788 22.7013 30.1424 27.3642 30.1424 39.9992C30.1424 52.6342 36.8788 57.2971 40.2469 58.0492M40.2469 21.9492C43.4547 23.0021 49.8703 28.0862 49.8703 39.9992C49.8703 51.9122 43.4547 56.9963 40.2469 58.0492M40.2469 21.9492V30.523M40.2469 58.0492V48.573M40.2469 48.573C42.8132 48.573 49.0042 49.2047 53.2385 51.7317M40.2469 48.573C36.7184 48.7234 29.0838 49.5657 26.7742 51.7317M40.2469 48.573V39.9992M40.2469 30.523C37.3599 30.523 30.7198 29.9815 27.2554 27.8155M40.2469 30.523C43.4547 30.3726 50.4477 29.6205 52.7573 27.8155M40.2469 30.523V39.9992M40.2469 39.9992H58.0502M40.2469 39.9992H21.9502" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <defs> <linearGradient id="paint0_linear_2658_19772" x1="40.7" y1="3.4814e-06" x2="38.6243" y2="65.7311" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                    </div>
+                                    <div class="tit">글로벌 송금 및 정산</div>
+                                    <p><strong>복잡한 국제 송금 절차 없이 빠르고 저렴하게</strong> 해외 파트너와 거래할 수 있습니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="80" height="80" rx="40" fill="url(#paint0_linear_2658_19781)"/> <circle cx="39.666" cy="40" r="19" stroke="white" stroke-width="2"/> <circle cx="39.666" cy="40" r="12" stroke="white" stroke-width="2"/> <defs> <linearGradient id="paint0_linear_2658_19781" x1="40.7" y1="3.4814e-06" x2="38.6243" y2="65.7311" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                    </div>
+                                    <div class="tit">토큰 이코노미</div>
+                                    <p><strong>기업 내에서 토큰을 발행하고 관리</strong>하는 새로운 비즈니스를 시작할 수 있는 기반을 마련합니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TS Coin -->
+                <div class="tab_content">
+                    <div class="sub_section scroll_reveal to_bottom show_center">
+                        <div class="container">
+                            <div class="title_area">
+                                <strong>기업 금융의 새로운 기준</strong>
+                                <h3>TS Coin</h3>
+                                <p>복잡한 거래 과정과 높은 수수료, 불투명한 거래 기록 때문에 고민하고 있습니까? <br/> TS Coin은 기업의 비즈니스에 최적화된 프라이빗 블록체인 플랫폼으로, 안전하고 투명한 디지털 거래를 가능하게 하는 엔터프라이즈 솔루션입니다. <br/> 이제 번거로운 중간 과정을 생략하고, 신뢰를 바탕으로 한 직접적인 거래를 경험하세요.</p>
+                            </div>
+                            <div class="blue_card_items">
+                                <div class="title">
+                                    <strong>TS Coin, 왜 필요한가요?</strong>
+                                    <p>복잡한 거래 과정과 높은 수수료, 불투명한 거래 기록 때문에 고민하고 있습니까?<br/> TS Coin은 기업의 비즈니스에 최적화된 프라이빗 블록체인 플랫폼으로, 안전하고 투명한 디지털 거래를 가능하게 하는 엔터프라이즈 솔루션입니다.<br/> 이제 번거로운 중간 과정을 생략하고, 신뢰를 바탕으로 한 직접적인 거래를 경험하세요.</p>
+                                </div>
+                                <div class="items">
+                                    <div class="item">
+                                        <div class="num">01</div>
+                                        <div class="tit">P2P 거래</div>
+                                        <div class="icon">
+                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M78.0762 11.4305C78.0762 10.6379 77.4383 10 76.6457 10H45.571C44.7785 10 44.1405 10.6379 44.1405 11.4305V29.4471H78.0762V11.4305Z" fill="#E4E6E9"/> <path d="M44.1404 29.457V31.6221C44.1404 32.4147 44.7783 33.0526 45.5709 33.0526H76.6359C77.4285 33.0526 78.0664 32.4147 78.0664 31.6221V29.457H44.1404Z" fill="#798190"/> <path d="M66.7513 36.9769H55.288L58.3616 33.0527H63.6776L66.7513 36.9769Z" fill="#C9CDD3"/> <rect x="52.5011" y="36.3281" width="16.7208" height="1.85787" rx="0.928934" fill="#798190"/> <path d="M35.8594 43.245C35.8594 42.4524 35.2215 41.8145 34.4289 41.8145H3.35424C2.56166 41.8145 1.92374 42.4524 1.92374 43.245V61.2615H35.8594V43.245Z" fill="#E4E6E9"/> <path d="M1.92374 61.2715V63.4366C1.92374 64.2291 2.56166 64.8671 3.35424 64.8671H34.4193C35.2119 64.8671 35.8498 64.2291 35.8498 63.4366V61.2715H1.92374Z" fill="#798190"/> <path d="M24.5346 68.7914H13.0713L16.145 64.8672H21.461L24.5346 68.7914Z" fill="#C9CDD3"/> <rect x="10.2844" y="68.1426" width="16.7208" height="1.85787" rx="0.928934" fill="#798190"/> <path d="M35.0771 10.5H21.0771C15.5542 10.5 11.0771 14.9772 11.0771 20.5V35.5" stroke="url(#paint0_linear_2658_19844)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 5"/> <path d="M42.0771 69.5H57.0771C62.5999 69.5 67.0771 65.0228 67.0771 59.5L67.0771 44.5" stroke="url(#paint1_linear_2658_19844)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 5"/> <path d="M37.3744 51.053C44.8448 51.053 50.9009 44.9969 50.9009 37.5265C50.9009 30.056 44.8448 24 37.3744 24C29.9039 24 23.8479 30.056 23.8479 37.5265C23.8479 44.9969 29.9039 51.053 37.3744 51.053Z" fill="url(#paint2_linear_2658_19844)"/> <path d="M31.8471 41.8431C31.8471 41.3957 32.0136 40.9483 32.357 40.6153C32.6899 40.2824 33.127 40.1055 33.5848 40.1055C34.053 40.1055 34.49 40.2824 34.8126 40.6153C35.1455 40.9483 35.3224 41.3853 35.3224 41.8431C35.3224 42.3113 35.1455 42.7483 34.8126 43.0709C34.4796 43.4038 34.0426 43.5807 33.5848 43.5807C33.1165 43.5807 32.6795 43.4038 32.357 43.0709C32.0136 42.7275 31.8471 42.2905 31.8471 41.8431Z" fill="white"/> <path d="M33.1061 35.4647H33.2414C34.1154 35.4439 34.979 35.6 35.7906 35.9225C36.6334 36.2555 37.3826 36.7549 38.0277 37.4001C38.6624 38.0348 39.141 38.7631 39.474 39.5851C39.7965 40.3759 39.963 41.2083 39.963 42.0719V42.2072H36.9455V42.0719C36.9455 41.1146 36.571 40.2094 35.8946 39.5331C35.1975 38.8359 34.2715 38.4614 33.2934 38.4822H33.1581L33.1061 35.4647Z" fill="white"/> <path d="M33.2209 34.0174V31H33.3562C34.7921 31 36.1967 31.2705 37.5182 31.8116C38.8916 32.3631 40.1298 33.185 41.1807 34.2464C42.2316 35.2973 43.0432 36.525 43.6051 37.8881C44.1462 39.2095 44.4167 40.6038 44.4271 42.0189V42.1541L41.4096 42.1645V42.0293C41.3992 39.8963 40.5564 37.8881 39.0477 36.369C38.2777 35.599 37.3829 35.0059 36.384 34.6001C35.4164 34.2047 34.3967 34.007 33.3562 34.007H33.2209V34.0174Z" fill="white"/> <defs> <linearGradient id="paint0_linear_2658_19844" x1="11.3104" y1="24.1806" x2="27.2341" y2="24.5722" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint1_linear_2658_19844" x1="66.834" y1="55.8194" x2="50.2477" y2="55.3948" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint2_linear_2658_19844" x1="23.8479" y1="37.5265" x2="50.9009" y2="37.5265" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                        </div>
+                                        <p>복잡한 중간 단계를 거치지 않고 직접적인 거래를 통해 시간과 비용을 획기적으로 절감합니다.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="num">02</div>
+                                        <div class="tit">완전한 투명성</div>
+                                        <div class="icon">
+                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4.99625 50.1257C5.08654 50.1257 5.17682 50.1257 5.25808 50.0986C5.85398 49.9722 6.26028 49.2951 6.37765 49.0964C7.82225 46.4871 9.26685 43.8146 10.6663 41.2413C11.0907 40.4558 11.515 39.6793 11.9394 38.8938C12.5894 37.702 13.2395 36.5102 13.8986 35.2913L14.5487 34.0905C14.5487 34.0905 14.5938 34.1627 14.6119 34.1988C15.6412 36.0859 16.6704 37.9729 17.6997 39.869C18.106 40.6093 18.5033 41.3497 18.9096 42.0901C20.1646 44.4014 21.4557 46.7851 22.7558 49.1235C22.9725 49.5208 23.442 49.9993 23.9476 50.1077C24.0198 50.1257 24.0921 50.1348 24.1733 50.1348C24.6428 50.1348 25.1304 49.8549 25.3922 49.6021C26.1055 48.8888 25.636 48.022 25.4283 47.6518C22.6114 42.4873 19.7583 37.2325 16.9955 32.1403L16.1107 30.5151C15.8488 30.0365 15.4877 29.3774 14.6029 29.3594H14.5758C13.6458 29.3594 13.2666 30.0636 13.0138 30.5241C10.7385 34.7225 8.45426 38.9209 6.17902 43.1193C5.94427 43.5618 5.70952 43.9861 5.47477 44.4105C4.86082 45.521 4.2288 46.6677 3.65999 47.8234C3.42524 48.3019 3.45233 49.0784 3.73222 49.5388C3.98503 49.9632 4.64413 50.1257 5.02333 50.1257H4.99625Z" fill="#E4E6E9"/> <path d="M25.9787 54.2339C26.0599 53.7554 26.1231 53.3762 25.8884 53.0963C25.6536 52.8164 25.2564 52.8164 24.8411 52.8164C18.0334 52.8164 11.2347 52.8164 4.42702 52.8164C4.21033 52.8164 3.99364 52.8345 3.76793 52.8435C3.65958 52.8435 3.54221 52.8615 3.42483 52.8615L3.00048 52.8886L3.02757 53.313C3.19008 55.7779 4.25548 57.7732 6.28695 59.4075C8.48997 61.1771 11.4333 62.1522 14.5573 62.1522C17.4465 62.1522 20.2093 61.3035 22.3581 59.7506C24.4167 58.2698 25.5995 56.4641 25.9787 54.2249V54.2339Z" fill="url(#paint0_linear_2658_19851)"/> <path d="M67.0508 30.5248C66.789 30.0463 66.4279 29.3872 65.543 29.3691H65.516C64.586 29.3691 64.2068 30.0734 63.954 30.5339C61.6787 34.7323 59.3945 38.9397 57.1102 43.1381C56.8754 43.5625 56.6407 43.9868 56.4059 44.4112C55.792 45.5218 55.16 46.6684 54.5912 47.8241C54.3564 48.3026 54.3835 49.0791 54.6634 49.5396C54.9162 49.9639 55.5753 50.1265 55.9545 50.1265C56.0538 50.1265 56.1351 50.1265 56.2163 50.0994C56.8122 49.973 57.2185 49.2958 57.3359 49.0972C58.7805 46.4878 60.2251 43.8243 61.6246 41.2421C62.0489 40.4566 62.4733 39.6801 62.8976 38.8946C63.5477 37.7028 64.1978 36.511 64.8569 35.2921L65.5069 34.0912C65.5069 34.0912 65.5521 34.1635 65.5701 34.1996C66.5994 36.0866 67.6287 37.9736 68.658 39.8697C69.0552 40.6101 69.4615 41.3414 69.8588 42.0818C71.1138 44.3931 72.4139 46.7858 73.705 49.1243C73.9308 49.5306 74.3912 49.991 74.8968 50.1084C74.9691 50.1265 75.0413 50.1355 75.1226 50.1355C75.5921 50.1355 76.0796 49.8556 76.3414 49.6028C77.0547 48.8895 76.5852 48.0227 76.3776 47.6526C73.5967 42.5422 70.7707 37.3506 68.044 32.3216L67.0599 30.5158L67.0508 30.5248Z" fill="#E4E6E9"/> <path d="M76.8366 53.0865C76.6019 52.8066 76.2046 52.8066 75.7893 52.8066C68.9816 52.8066 62.1829 52.8066 55.3752 52.8066C55.1586 52.8066 54.9419 52.8247 54.7162 52.8337C54.6078 52.8337 54.4904 52.8518 54.3731 52.8518L53.9487 52.8789L53.9758 53.3032C54.1383 55.7681 55.2037 57.7635 57.2352 59.3977C59.4382 61.1674 62.3816 62.1425 65.5055 62.1425C68.3947 62.1425 71.1575 61.2938 73.3064 59.7408C75.3649 58.2601 76.5477 56.4543 76.9269 54.2151C77.0082 53.7366 77.0714 53.3574 76.8366 53.0775V53.0865Z" fill="url(#paint1_linear_2658_19851)"/> <path d="M61.8491 25.3506C61.813 25.3055 61.6054 24.9804 61.4519 24.7638C60.7115 23.599 60.6393 23.4726 60.1337 23.4726H59.9802L59.8447 23.5268C58.996 23.8248 58.1473 24.1498 57.3257 24.4658C55.4839 25.1701 53.5878 25.9014 51.6918 26.416C49.8409 26.9216 47.9719 27.2467 45.9766 27.5808C45.3716 27.7162 44.7577 27.8426 44.1347 27.9509C43.7194 28.0232 43.1596 27.9871 42.7894 28.1947C42.2838 28.4836 42.1755 29.0615 42.1393 29.5942C42.0942 30.2984 42.0581 31.0027 42.0129 31.7069C41.8324 34.6865 41.6066 37.675 41.5254 40.6455C41.4983 41.3588 41.2004 42.2256 39.9454 42.3339C38.6723 42.2256 38.3834 41.3588 38.3653 40.6455C38.3382 39.8329 38.2931 39.0293 38.257 38.2077C38.1667 36.4381 38.0493 34.6684 37.941 32.8897C37.8958 32.2306 37.8507 31.5625 37.8146 30.8853C37.7694 30.0908 37.9681 29.0344 37.336 28.4024C37.002 28.0683 36.4873 28.0683 36.054 27.9961C35.3407 27.8787 34.6184 27.7433 33.9051 27.5808C31.9278 27.2467 30.0498 26.9216 28.1989 26.416C26.3029 25.8924 24.3978 25.1701 22.556 24.4658C21.7343 24.1498 20.8947 23.8338 20.046 23.5268L19.9105 23.4726H19.748C19.2514 23.4726 19.1792 23.599 18.4298 24.7638C18.2763 24.9804 18.0867 25.3055 18.0506 25.3506C16.0191 28.2308 11.1888 25.7118 12.0104 22.4614C12.4167 20.8543 13.9606 19.6986 15.6851 19.6986C18.5652 19.6895 21.4364 19.6895 24.3166 19.6895H36.7131C36.7582 19.4819 36.8033 19.2742 36.8485 19.0756C37.0832 18.0102 37.8326 17.8477 38.275 17.8477H41.6066C42.031 17.8477 42.7984 18.0102 43.0332 19.0756C43.0783 19.2742 43.1235 19.4819 43.1686 19.6895H55.5561C58.4363 19.6895 61.3164 19.6895 64.1966 19.6986C65.9211 19.6986 67.456 20.8543 67.8713 22.4614C68.6929 25.7118 63.8716 28.2308 61.8311 25.3506H61.8491Z" fill="#798190"/> <defs> <linearGradient id="paint0_linear_2658_19851" x1="3.00048" y1="57.4843" x2="26.0509" y2="57.4843" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint1_linear_2658_19851" x1="53.9487" y1="17.8469" x2="76.9991" y2="17.8469" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                        </div>
+                                        <p>모든 거래 이력이 블록체인에 투명하게 기록되어 완벽한 신뢰를 보장합니다.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="num">03</div>
+                                        <div class="tit">글로벌 거래</div>
+                                        <div class="icon">
+                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <mask id="mask0_2658_19858" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="8" width="65" height="64"> <ellipse cx="42.8417" cy="40" rx="32.0001" ry="32" fill="#D9D9D9"/> </mask> <g mask="url(#mask0_2658_19858)"> <ellipse cx="42.8417" cy="40" rx="32.0001" ry="32" fill="#E4E6E9"/> <path d="M57.6329 72.3852C57.6329 72.3852 52.1403 68.6654 51.9978 66.7289C51.8643 64.7925 54.0898 57.38 52.9059 55.9659C51.7219 54.5518 52.0245 51.0212 49.4607 50.4988C46.8969 49.9764 43.8435 51.7327 40.6922 49.9404C37.5408 48.1481 35.8138 48.4003 36.0185 44.7705C36.2233 41.1408 37.7278 34.0706 41.6269 32.9897C45.526 31.9089 48.9622 28.0541 52.3984 31.1884C55.8435 34.3227 52.5231 35.6557 57.3124 35.8719C62.1017 36.0881 63.6596 37.1869 64.4252 35.8719C65.1908 34.5659 64.4252 32.2242 63.6596 31.8549C62.8851 31.4856 58.9949 31.3505 57.4815 30.3057C55.9682 29.261 54.8109 26.3248 51.259 26.9282C47.707 27.5317 45.5883 28.2612 45.2856 27.1174C44.983 25.9735 45.7218 25.5322 46.1135 24.4514C46.5052 23.3706 42.5705 21.9115 43.0868 20.5425C43.6031 19.1644 46.9503 19.2545 48.1699 19.6688C48.7753 19.876 49.1403 23.6047 50.342 23.6047C51.5438 23.6047 52.6922 23.1004 52.167 21.0288C51.6418 18.9573 54.4103 16.1292 56.0305 15.5888C60.259 14.1837 66.1967 15.0484 66.1967 15.0484C66.1967 15.0484 72.6418 22.3888 75.2145 32.053C76.8169 38.0605 76.7279 44.2031 76.1671 46.3197C73.1047 46.9682 71.173 45.5361 70.4341 43.6447C69.6952 41.7533 70.078 37.7813 68.3243 38.3397C66.5706 38.8982 63.8822 42.3117 66.5528 46.2927C69.2234 50.2737 75.3926 49.5441 73.7279 52.6424C72.0632 55.7407 66.5706 53.7953 65.3866 57.0377C64.2026 60.2801 64.4074 66.2786 62.3955 68.7374C60.3836 71.1963 57.6329 72.3762 57.6329 72.3762V72.3852Z" fill="#C9CDD3"/> <path d="M14.8853 43.5859L8.27008 51.4666L13.2337 57.2335C15.532 60.1562 16.6244 63.7485 16.3972 67.4714C20.1548 70.6202 24.2096 72.3859 24.2096 72.3859C24.2096 72.3859 24.6728 60.191 25.2583 56.816C25.8438 53.4411 23.0124 48.5961 21.4657 46.0215C19.9189 43.4381 17.3759 44.4036 14.8853 43.6033V43.5859Z" fill="#C9CDD3"/> <path d="M21.0435 9.4604C21.0435 9.4604 17.9752 11.4266 14.6689 14.4819C17.7636 17.3896 20.4087 22.9281 20.3469 28.6512C21.8458 27.9958 22.7275 27.2389 25.1609 25.9281C28.7935 23.9712 28.2645 17.1312 28.529 13.8635C28.7935 10.5958 21.0523 9.45117 21.0523 9.45117L21.0435 9.4604Z" fill="#C9CDD3"/> </g> <path d="M16.8363 24.1797C10.3868 24.1797 5.15909 29.5214 5.15909 36.1116C5.15909 43.9567 16.8363 58.313 16.8363 58.313C16.8363 58.313 28.5135 43.9501 28.5135 36.1116C28.5135 29.5214 23.2858 24.1797 16.8363 24.1797Z" fill="url(#paint0_linear_2658_19858)"/> <ellipse cx="16.8356" cy="35.8576" rx="8.08424" ry="8.08421" fill="white"/> <path d="M64.2879 9.90234C59.0477 9.90234 54.8002 14.2425 54.8002 19.597C54.8002 25.9711 64.2879 37.6357 64.2879 37.6357C64.2879 37.6357 73.7757 25.9658 73.7757 19.597C73.7757 14.2425 69.5281 9.90234 64.2879 9.90234Z" fill="url(#paint1_linear_2658_19858)"/> <ellipse cx="64.2872" cy="19.3887" rx="6.56844" ry="6.56842" fill="white"/> <defs> <linearGradient id="paint0_linear_2658_19858" x1="19.621" y1="24.4478" x2="18.3402" y2="52.218" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> <linearGradient id="paint1_linear_2658_19858" x1="66.5505" y1="10.1201" x2="65.5098" y2="32.6835" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                        </div>
+                                        <p>24시간 실시간에 가까운 속도로 국경 없는 거래를 가능하게 합니다.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub_section scroll_reveal to_bottom show_center">
+                        <div class="container">
+                            <div class="diagram_box">
+                                <div class="item before">
+                                    <div class="tit">TS Coin 도입 전</div>
+                                    <div class="img">
+                                        <img src="../../assets/images/content/diagram_coin_before.png" class="pc" alt="TS AI Coin 도입 전: 직원 문의가 여러 폴더 검색과 부서 문의를 거쳐 지연된 답변으로 이어지는 복잡한 처리 과정">
+                                        <img src="../../assets/images/content/diagram_coin_before_mobile.png" class="mobile" alt="TS AI Coin 도입 전: 직원 문의가 여러 폴더 검색과 부서 문의를 거쳐 지연된 답변으로 이어지는 복잡한 처리 과정">
+                                    </div>
+                                </div>
+                                <div class="item after">
+                                    <div class="tit">TS Coin 도입 후</div>
+                                    <div class="img">
+                                        <img src="../../assets/images/content/diagram_coin_after.png" class="pc"  alt="TS AI Coin 도입 후: 직원 문의가 TS Coin을 통해 사내문서·매뉴얼·정책 정보를 기반으로 즉시 정확한 답변을 제공하는 streamlined 프로세스">
+                                        <img src="../../assets/images/content/diagram_coin_after_mobile.png" class="mobile"  alt="TS AI Coin 도입 후: 직원 문의가 TS Coin을 통해 사내문서·매뉴얼·정책 정보를 기반으로 즉시 정확한 답변을 제공하는 streamlined 프로세스">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub_section scroll_reveal to_bottom show_center">
+                        <div class="container">
+                            <div class="title_sub">
+                                <h4>주요 기능 및 특징</h4>
+                            </div>
+                            <div class="check_grids">
+                                <div class="item">
+                                    <div class="tit">스테이블코인 발행</div>
+                                    <p>기업 전용의 안정화된 디지털 화폐를 발행하고 관리하여 변동성 없이 안전하게 거래할 수 있습니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="tit">스마트 컨트랙트</div>
+                                    <p>계약 내용을 블록체인에 기록하여 조건이 충족되면 자동으로 계약이 실행되도록 합니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="tit">KYC/AML 준수</div>
+                                    <p>신원 확인(KYC) 및 자금 세탁 방지(AML) 절차를 자동화하여 규제 준수를 강화합니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="tit">감사 추적</div>
+                                    <p>모든 거래 기록을 투명하게 관리하여 기업의 내부 감사 및 컴플라이언스에 완벽하게 대응할 수 있습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub_section scroll_reveal to_bottom show_center">
+                        <div class="container">
+                            <div class="title_sub">
+                                <h4>도입 효과 및 적용 분야</h4>
+                                <p>TS Coin은 단순한 거래 시스템을 넘어, 기업의 운영 효율성과 신뢰도를 극대화합니다.</p>
+                            </div>
+                            <div class="icon_blue_items">
+                                <div class="item">
+                                    <div class="icon">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="80" height="80" rx="40" fill="url(#paint0_linear_2658_19978)"/> <line x1="23" y1="57" x2="57" y2="57" stroke="white" stroke-width="2" stroke-linecap="round"/> <rect x="27.5" y="32" width="5" height="25" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <rect x="37.5" y="38" width="5" height="19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <rect x="47.5" y="43" width="5" height="14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M29.4332 21.7129L52.8159 35.2129M52.8159 35.2129L47.0527 35.1952M52.8159 35.2129L50.0527 29.999" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <defs> <linearGradient id="paint0_linear_2658_19978" x1="40.7" y1="3.4814e-06" x2="38.6243" y2="65.7311" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                    </div>
+                                    <div class="tit">비용 절감</div>
+                                    <p>기존의 높은 송금 <strong>수수료를 최소화</strong>하여 운영 비용을 절감합니다.</strong></p>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="80" height="80" rx="40" fill="url(#paint0_linear_2658_19984)"/> <path d="M34.081 54.1681C36.788 56.2004 40.1534 57.4041 43.7988 57.4041C52.7469 57.4041 60 50.151 60 41.2029C60 32.2548 52.7469 25 43.7988 25" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M28.9741 47.748C29.5358 49.0189 30.2564 50.2029 31.1096 51.2772" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M27.5965 41.2031C27.5965 42.4068 27.7275 43.5794 27.9764 44.7077" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M28.973 34.6582C28.4817 35.7702 28.1116 36.9476 27.8791 38.1742" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M33.7679 28.4785C32.6379 29.371 31.6292 30.4109 30.771 31.5688" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M48.5264 45.6754L43.7985 41.203V30.668" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M43.7991 25H16" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M36.4469 31.5703H30.7724H17.9349" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M33.7686 38.1387H19.8698" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M33.7681 44.707H21.8035" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <path d="M36.8956 51.2773H23.7371" stroke="white" stroke-width="2" stroke-miterlimit="10"/> <defs> <linearGradient id="paint0_linear_2658_19984" x1="40.7" y1="3.4814e-06" x2="38.6243" y2="65.7311" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                    </div>
+                                    <div class="tit">처리 속도</div>
+                                    <p><strong>실시간에 가까운 거래 처리 속도</strong>로 비즈니스 효율을 높입니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="80" height="80" rx="40" fill="url(#paint0_linear_2658_19990)"/> <path d="M40.8002 30.7249C38.7632 29.4301 33.6438 29.9339 31.0568 29.9594C30.1456 29.9683 29.5947 29.6404 29.2611 29.6983C29.2611 29.6983 28.8194 30.1276 28.391 30.7249L21.067 40.9388C20.9307 41.1279 20.7604 41.268 20.5728 41.3572L25.0001 44.8009M52.6758 43.2066L54.0688 44.3804C55.0439 45.2145 55.2011 46.7737 54.4201 47.8626C53.6391 48.9517 52.2152 49.159 51.2399 48.3249C52.215 49.159 52.3724 50.7183 51.5914 51.8072C50.8104 52.8963 49.3865 53.1028 48.4112 52.2687L47.4074 51.4103C47.9452 51.8708 48.2348 52.5509 48.2546 53.2516C48.2708 53.8216 48.1087 54.4041 47.7587 54.8926C46.9777 55.9817 45.5538 56.1882 44.5785 55.3541L42.7571 53.7959C43.2949 54.2564 43.5846 54.9366 43.6043 55.6373C43.6205 56.2073 43.5147 56.5715 43.1663 57.0467C42.6943 57.6907 41.5902 58.5048 40.3741 57.5946L38.6002 56.2009" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M51.2403 48.3251L47.3489 45.1582" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M47.4078 51.4105L44.4198 48.8613" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M42.7576 53.7945L42.087 53.1387" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M23.3122 24L28.7145 27.5383C29.3461 28.0181 29.4852 28.9496 29.0251 29.6189L21.1552 41.0691C20.6953 41.7384 19.8102 41.8922 19.1787 41.4125L14 37.4787L23.3122 24Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M49.174 30.568C48.7839 30.4736 47.0894 30.1898 46.0043 30.0924C43.1539 29.8353 41.0844 30.3076 38.7532 31.3356L31.8244 34.6447C30.541 35.4043 30.1164 37.0606 30.8761 38.344L30.8774 38.3466C31.6371 39.6301 33.2933 40.0546 34.5777 39.2949L42.8165 35.2104L55.4822 45.4067L58.2207 44.0265" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M36.7888 51.8896C37.6785 51.1099 39.0106 51.226 39.7646 52.1488C40.518 53.0708 40.4073 54.4502 39.5176 55.2298L37.4418 56.88C36.5833 57.3534 35.4934 57.1599 34.8392 56.3591C34.5111 55.9577 34.3463 55.4696 34.3387 54.9817C34.329 54.3497 34.583 53.7179 35.0862 53.2781L36.7888 51.8898V51.8896Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M29.5922 46.7647C30.0952 46.3249 30.3495 45.6931 30.3398 45.0611C30.3321 44.5733 30.1673 44.0852 29.8393 43.6837C29.1852 42.8821 28.0945 42.6899 27.2361 43.1634L24.3218 45.5153C23.4321 46.295 23.3213 47.6742 24.0748 48.5969C24.8282 49.519 26.1607 49.635 27.0505 48.8561L29.5922 46.7645V46.7647Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M33.9837 48.6485L34.8996 47.8462C35.79 47.0671 37.122 47.1832 37.876 48.1054C38.6294 49.0282 38.5186 50.4073 37.6289 51.187L35.0872 53.2779L33.4242 54.7335C32.5345 55.5126 31.2024 55.3971 30.4484 54.4743C30.1203 54.073 29.9561 53.5848 29.9486 53.0977C29.9389 52.4649 30.193 51.8331 30.6954 51.3933L33.9835 48.6484L33.9837 48.6485Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M29.5917 46.7646L31.254 45.3091C32.1445 44.53 33.4764 44.6461 34.2298 45.5683C34.5579 45.9697 34.7227 46.4578 34.7303 46.9457C34.74 47.5777 34.486 48.2095 33.9828 48.6493L30.6947 51.3943L29.7788 52.1966C28.8891 52.9757 27.557 52.8596 26.8032 51.9374C26.0498 51.0146 26.1605 49.6355 27.0502 48.8564L29.5919 46.7647L29.5917 46.7646Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M29.5913 46.7637L27.0496 48.8553" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <path d="M65.5582 39.8959L60.0905 43.7826C59.4237 44.2565 58.4829 44.0778 57.9891 43.3833L49.5436 31.5022C49.0498 30.8076 49.1903 29.8604 49.8571 29.3864L55.3289 25.2181L65.5582 39.8959Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <defs> <linearGradient id="paint0_linear_2658_19990" x1="40.7" y1="3.4814e-06" x2="38.6243" y2="65.7311" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                    </div>
+                                    <div class="tit">투명성 및 신뢰성</div>
+                                    <p>모든 거래가 블록체인에 기록되어 <strong>위변조가 불가능</strong>하며, <strong>높은 신뢰를 구축</strong>합니다.</p>
+                                </div>
+                                <div class="item">
+                                    <div class="icon">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="80" height="80" rx="40" fill="url(#paint0_linear_2658_19996)"/> <circle cx="39.666" cy="40" r="19" stroke="white" stroke-width="2"/> <circle cx="39.666" cy="40" r="12" stroke="white" stroke-width="2"/> <defs> <linearGradient id="paint0_linear_2658_19996" x1="40.7" y1="3.4814e-06" x2="38.6243" y2="65.7311" gradientUnits="userSpaceOnUse"> <stop stop-color="#2874FF"/> <stop offset="1" stop-color="#4BA9FF"/> </linearGradient> </defs> </svg>
+                                    </div>
+                                    <div class="tit">다양한 분야 적용</div>
+                                    <p><strong>공급망 관리</strong>의 투명한 추적, <strong>B2B 거래</strong> 등의 자동 결제, <strong>자산 토큰화</strong> 등 다양한 분야에서 활용될 수 있습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+	</div>
+	<!-- //content -->
+
+
+	<div id="footer">
+		<div class="ft_inner">
+			<div class="ft_top">
+				<div class="ft_logo">
+					<img src="../../assets/images/common/ft_logo.png" alt="TRIONSOFT">
+				</div>
+				<div id="to_top_wrap">
+					<button type="button" id="to_top"><span>TOP</span></button>
+				</div>
+			</div>
+			<div class="ft_bottom">
+				<div class="ft_info">
+					<div class="info ads">서울특별시 강남구 강남대로 566, 5층 (논현동, 신영와코루빌딩) 트라이언소프트</div>
+					<div class="info">TEL : 02-3444-6327</div>
+					<div class="info">FAX : 02-3444-6329</div>
+					<div class="info">E-MAIL : trionsoft@trionsoft.co.kr</div>
+				</div> 
+				<div class="ft_copy">COPYRIGHTⒸTRIONSOFT INC. ALL RIGHTS RESERVED.</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="../../assets/js/common.js"></script>
+<script>
+
+</script>
+</body>
+</html>
