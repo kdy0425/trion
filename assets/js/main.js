@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function () {
     main_visual.classList.remove('main_show');
     main_visual.classList.remove('main_ready');
-  }, 2800);
+  }, 3300);
 });
 window.addEventListener('load', function () {
   window.scrollTo(0, 0);

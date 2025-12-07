@@ -107,7 +107,11 @@ html.menu_all_open #nav{opacity:0; visibility: hidden;transform: translateY(-15p
 
   html.menu_all_open #logo{visibility: hidden;opacity: 0;transform: translateY(-75%);}
 }
-
+@media screen and (max-width: 355px) {
+  #logo img {height: 22px;}
+  #header .hd_right{gap:5px;}
+  .hd_language .item a{width: 45px;}
+}
 #nav_all_wrap{position: fixed;z-index: 40;;left:0;top:0;display: flex;width:100%;height:100%;align-items: center;pointer-events: none;padding:125px 160px 25px;text-align: center;
 background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 100%);backdrop-filter: blur(15px);opacity: 0;
 visibility: hidden; transform: translateY(-50px); transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;}
@@ -225,4 +229,5 @@ visibility: hidden; transform: translateY(-50px); transition: opacity 0.3s ease,
 #content{margin-bottom:120px;}
 @media screen and (max-width: 1100px) {
     #content{margin-bottom:80px;}
+    #content.mobile_margin_no{margin-bottom:0;}
 }

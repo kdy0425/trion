@@ -2,17 +2,17 @@
 @media screen and (max-width: 1100px) {
     #content.main_content{margin-bottom:0;}
 }
-.main_fade{position: fixed;z-index:10000;left:0;top:-10%;width:100%;height: 120%;background: #E7EAF0;background: #E7EAF0;background: linear-gradient(0deg,rgba(234, 236, 242, 1) 0%, rgba(252, 253, 253, 1) 100%);transition: all 1.2s ease;transition-delay: 0.7s;}
+.main_fade{position: fixed;z-index:10000;left:0;top:-10%;width:100%;height: 120%;background: #E7EAF0;background: #E7EAF0;background: linear-gradient(0deg,rgba(234, 236, 242, 1) 0%, rgba(252, 253, 253, 1) 100%);transition: all 2s ease;transition-delay: 0.5s;}
 .main_fade:before{content:"";position: absolute;left:50%;top:50%;transform: translate(-50%,-50%);width:200px;height: 200px;background-position: center center;background-repeat: no-repeat;background-image: url('../images/common/ft_logo.png');background-size: contain;}
 .main_fade.main_show{opacity: 0; visibility: hidden; transform: translateY(30px); } 
 #header{visibility: hidden;opacity: 0; transform: translateY(-60px); transition-delay: 1.5s;} 
 #header.main_show{opacity: 1; visibility: visible; transform: translateY(0); } 
 #header.bg{background-color: #fff;}
-.main_visual.main_ready .mv_item .img{transform:scale(1.05);transition: all 1.5s ease;transition-delay:1s;} 
+.main_visual.main_ready .mv_item .img{transform:scale(1.05);transition: all 2.5s ease;transition-delay:0.3s;} 
 .main_visual.main_show .mv_item .img{transform:scale(1);}
-.main_visual.main_ready .mv_item .texts{left:-60px;top:60px;transition: all 1s;transition-delay:1.8s;} 
+.main_visual.main_ready .mv_item .texts{left:-60px;top:60px;transition: all 2s;transition-delay:1.5s;} 
 .main_visual.main_show .mv_item .texts{opacity: 1; visibility: visible;left:0;top:0; } 
-.main_visual.main_ready .splide_controls{margin-left:-60px;transition: all 1s;transition-delay:1.8s;} 
+.main_visual.main_ready .splide_controls{margin-left:-60px;transition: all 2s;transition-delay:1.5s;} 
 .main_visual.main_show .splide_controls{opacity: 1; visibility: visible;margin-left:0;} 
 @media screen and (max-width: 1100px){
     .main_visual.main_ready .splide_controls{margin-left:0;bottom:10px;} 

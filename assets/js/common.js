@@ -379,10 +379,12 @@ document.addEventListener("DOMContentLoaded", () => {
     contents.forEach((con, i) => {
       con.style.display = i === index ? "block" : "none";
     });
+    const tabWrap = document.querySelector("#tab_wrap");
+    if (tabWrap) {
+      tabWrap.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
-
   activateTab(0);
-
   pcItems.forEach((btn, index) => {
     btn.addEventListener("click", () => {
       activateTab(index);
