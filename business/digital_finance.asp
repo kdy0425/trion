@@ -1,173 +1,10 @@
-<!DOCTYPE html>
-<html lang="ko">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-    <meta name="referrer" content="always">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no,address=no,email=no">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,viewport-fit:cover">
-    <!-- No cache -->
-    <meta http-equiv="Expires" content="-1">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
-    <!-- Summary -->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta property="og:title" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-    <link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
-    <title>트라이언소프트</title>
-    <link rel="stylesheet" type="text/css" href="../../assets/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
-    <link rel="stylesheet" type="text/css" href="../../assets/css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="../../assets/css/content.css" />
-    <link rel="stylesheet" href="../../assets/css/splide.min.css">
-    <script src="../../assets/js/splide.min.js"></script>
-    <script src="../../assets/js/splide-extension-grid.min.js"></script>
-</head>
-
-<body>
-
-    <!-- wrap -->
-    <div id="layout">
-        <h1 id="header_h1">트라이언소프트</h1>
-        <div id="skip_to_container">
-            <!-- skip navigation -->
-            <a href="#content">내용 바로가기</a>
-            <a href="#nav">서비스메뉴 바로가기</a>
-        </div>
-        <hr class="hide" />
-
-        <!-- header -->
-        <div id="header">
-            <div class="header_inner">
-                <div id="logo">
-                    <a href="javascript:;"><img src="../../assets/images/common/logo.png" alt="TRIONSOFT" /></a>
-                </div>
-                <ul id="nav">
-                    <li>
-                        <a href="javascript:;">Company</a>
-                        <ul>
-                            <li><a href="../company/company.html">회사소개</a></li>
-                            <li><a href="../company/partners.html">협력사</a></li>
-                            <li><a href="../company/recruit.html">채용안내</a></li>
-                            <li><a href="../company/location.html">오시는 길</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript:;">Business</a>
-                        <ul>
-                            <li><a href="ai_bigdata.html">AI/Bigdata</a></li>
-                            <li><a href="digital_finance.html" class="active">디지털 금융</a>
-                            </li>
-                            <li><a href="voucher_subsidy.html">바우처/보조금</a></li>
-                            <li><a href="isp_bpr.html">ISP/BPR</a></li>
-                            <li><a href="system_integration.html">시스템통합</a></li>
-                            <li><a href="industry_specialization.html">산업별 특화</a></li>
-                            <li><a href="happiness_mall.html">국민행복몰</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript:;">Solution</a>
-                        <ul>
-                            <li><a href="../solution/ai.html">AI</a></li>
-                            <li><a href="../solution/blockchain.html">Blockchain</a></li>
-                            <li><a href="../solution/treasury_subsidy.html">국고 보조금 관리시스템</a>
-                            </li>
-                            <li><a href="../solution/foreign_subsidy.html">유가보조금 관리시스템</a>
-                            </li>
-                            <li><a href="../solution/fuel_rfid.html">주유 RFID 관리시스템</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="javascript:;">Contact Us</a>
-                        <ul>
-                            <li><a href="../contact/contact.html">문의하기</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="hd_right">
-                    <div class="hd_language">
-                        <div class="item"><a href="javascript:;" class="active">KR</a></div>
-                        <div class="item"><a href="javascript:;">EN</a></div>
-                    </div>
-                    <button type="button" id="nav_all_button">
-                        <strong></strong>
-                        <strong></strong>
-                        <strong></strong>
-                        <span class="sound_only">전체메뉴</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- //header -->
-
-        <!-- 전체메뉴 -->
-        <div id="nav_all_wrap">
-            <ul>
-                <li>
-                    <a href="javascript:;" class="arrow"><span>Company</span></a>
-                    <ul>
-                        <li><a href="../company/company.html">회사소개</a></li>
-                        <li><a href="../company/partners.html">협력사</a></li>
-                        <li><a href="../company/recruit.html">채용안내</a></li>
-                        <li><a href="../company/location.html">오시는 길</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript:;" class="arrow"><span>Business</span></a>
-                    <ul>
-                        <li><a href="ai_bigdata.html">AI/Bigdata</a></li>
-                        <li><a href="digital_finance.html" class="active">디지털 금융</a></li>
-                        <li><a href="voucher_subsidy.html">바우처/보조금</a></li>
-                        <li><a href="isp_bpr.html">ISP/BPR</a></li>
-                        <li><a href="system_integration.html">시스템통합</a></li>
-                        <li><a href="industry_specialization.html">산업별 특화</a></li>
-                        <li><a href="happiness_mall.html">국민행복몰</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript:;" class="arrow"><span>Solution</span></a>
-                    <ul>
-                        <li><a href="../solution/ai.html">AI</a>
-                            <ul>
-                                <li><a href="javascript:;">AI융합 EAI 솔루션</a></li>
-                                <li><a href="javascript:;">TS GenAI Gateway </a></li>
-                                <li><a href="javascript:;">TS AI Chatbot</a></li>
-                                <li><a href="javascript:;">TS AI Visons SR</a></li>
-                                <li><a href="javascript:;">TS AI Visons 검사</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="../solution/blockchain.html">Blockchain</a>
-                            <ul>
-                                <li><a href="javascript:;">TS Wallet</a></li>
-                                <li><a href="javascript:;">TS Coin</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="../solution/treasury_subsidy.html">국고 보조금 관리시스템</a></li>
-                        <li><a href="../solution/foreign_subsidy.html">유가보조금 관리시스템</a></li>
-                        <li><a href="../solution/fuel_rfid.html">주유 RFID 관리시스템</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="javascript:;" class="arrow"><span>Contact Us</span></a>
-                    <ul>
-                        <li><a href="../contact/contact.html">문의하기</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <div class="sub_top">
+<!--#include virtual="/include/head.asp"-->
+<!--#include virtual="/include/header.asp"-->
+<div class="sub_top">
             <div class="page_location scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_3">
-                <div class="item"> <a href="javascript:;" class="home">홈으로</a> </div>
-                <div class="item"> <a href="javascript:;">Business</a> </div>
-                <div class="item"> <a href="javascript:;">디지털 금융</a> </div>
+                <div class="item"> <a href="/index.asp" class="home">홈으로</a> </div>
+                <div class="item"> <a href="/business/ai_bigdata.asp">Business</a> </div>
+                <div class="item"> <a href="/business/digital_finance.asp">디지털 금융</a> </div>
             </div>
             <h2 class="scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_5">디지털 금융</h2>
 
@@ -183,9 +20,9 @@
         </div>
 
         <div class="mobile_tab_nav">
-            <div class="item home"><a href="javascript:;">홈으로</a></div>
+            <div class="item home"><a href="/index.asp">홈으로</a></div>
             <div class="item">
-                <a href="javascript:;"><span>Business</span></a>
+                <a href="/business/ai_bigdata.asp"><span>Business</span></a>
                 <ul>
                     <li><a href="../company/company.html">Company</a></li>
                     <li><a href="../main/main.html" class="active">Business</a></li>
@@ -195,7 +32,7 @@
                 </ul>
             </div>
             <div class="item">
-                <a href="javascript:;"><span>디지털 금융</span></a>
+                <a href="/business/digital_finance.asp"><span>디지털 금융</span></a>
                 <ul>
                     <li><a href="ai_bigdata.html">AI/Bigdata</a></li>
                     <li><a href="digital_finance.html" class="active">디지털 금융</a></li>
@@ -224,7 +61,7 @@
                     </div>
                 </div>
                 <div class="bg bg_digital scroll_reveal to_left show_center"
-                    style="background-image: url(../../assets/images/content/business_digital_finance_bg.jpg);">
+                    style="background-image: url(/assets/images/content/business_digital_finance_bg.jpg);">
                 </div>
             </div>
 
@@ -341,7 +178,7 @@
                                         <li>암호화폐, 토큰 디지털자산을 안전하게 보관하고 관리할 수 있는 엔터프라이즈급 지갑 서비스</li>
                                     </ul>
                                 </div>
-                                <a href="javascript:;"><span>더 알아보기</span></a>
+                                <a href="/solution/blockchain.asp#wallet"><span>더 알아보기</span></a>
                             </div>
                         </div>
 
@@ -363,56 +200,4 @@
         </div>
         <!-- //content -->
 
-        <div id="footer">
-            <div class="ft_inner">
-                <div class="ft_top">
-                    <div class="ft_logo">
-                        <img src="../../assets/images/common/ft_logo.png" alt="TRIONSOFT">
-                    </div>
-                    <div id="to_top_wrap">
-                        <button type="button" id="to_top"><span>TOP</span></button>
-                    </div>
-                </div>
-                <div class="ft_bottom">
-                    <div class="ft_info">
-                        <div class="info ads">서울특별시 강남구 강남대로 566, 5층 (논현동, 신영와코루빌딩) 트라이언소프트
-                        </div>
-                        <div class="info">TEL : 02-3444-6327</div>
-                        <div class="info">FAX : 02-3444-6329</div>
-                        <div class="info">E-MAIL : trionsoft@trionsoft.co.kr</div>
-                    </div>
-                    <div class="ft_copy">COPYRIGHTⒸTRIONSOFT INC. ALL RIGHTS RESERVED.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="../../assets/js/common.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const items = document.querySelectorAll('.toggle_items .item');
-
-            items.forEach(function (item) {
-                const btn = item.querySelector('.toggle_btn');
-                const content = item.querySelector('.toggle_content');
-                if (!btn || !content) return;
-
-                content.style.maxHeight = '0px';
-
-                btn.addEventListener('click', function () {
-                    const isActive = btn.closest('.item').classList.contains('active');
-
-                    if (isActive) {
-                        item.classList.remove('active');
-                        content.style.maxHeight = '0px';
-                    } else {
-                        item.classList.add('active');
-                        content.style.maxHeight = content.scrollHeight + 50 + 'px';
-                    }
-                });
-            });
-        });
-
-    </script>
-</body>
-
-</html>
+<!--#include virtual="/include/footer.asp"-->
