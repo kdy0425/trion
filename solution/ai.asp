@@ -1,201 +1,42 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-<meta name="referrer" content="always">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="format-detection" content="telephone=no,address=no,email=no">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,viewport-fit:cover">
-<!-- No cache -->
-<meta http-equiv="Expires" content="-1">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Cache-Control" content="no-cache; no-store; no-save">
-<!-- Summary -->
-<meta name="keywords" content="">
-<meta name="description" content="">
-<meta property="og:title" content=""/>
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
-<meta property="og:site_name" content=""/>
-<meta property="og:description" content="" />
-<link rel="icon" href="../../assets/images/favicon.ico" type="image/x-icon">
-<title>트라이언소프트</title>
-<link rel="stylesheet" type="text/css" href="../../assets/css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="../../assets/css/common.css" />
-<link rel="stylesheet" type="text/css" href="../../assets/css/layout.css" />
-<link rel="stylesheet" type="text/css" href="../../assets/css/content.css" />
-<link rel="stylesheet" href="../../assets/css/splide.min.css">
-<script src="../../assets/js/splide.min.js"></script>
-<script src="../../assets/js/splide-extension-grid.min.js"></script>
-</head>
-<body>
-
-<!-- wrap -->
-<div id="layout">
-	<h1 id="header_h1">트라이언소프트</h1>
-	<div id="skip_to_container">
-		<!-- skip navigation -->
-		<a href="#content">내용 바로가기</a>
-		<a href="#nav">서비스메뉴 바로가기</a>
-	</div>
-	<hr class="hide" />	
-
-	<!-- header -->
-	<div id="header">
-		<div class="header_inner"> 
-			<div id="logo">
-				<a href="javascript:;"><img src="../../assets/images/common/logo.png" alt="TRIONSOFT" /></a>
-			</div>
-			<ul id="nav">
-				<li>
-					<a href="javascript:;">Company</a>
-					<ul>
-						<li><a href="javascript:;">회사소개</a></li>
-						<li><a href="javascript:;">협력사</a></li>
-						<li><a href="javascript:;">채용안내</a></li>
-						<li><a href="javascript:;">오시는 길</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;">Business</a>
-					<ul>
-						<li><a href="javascript:;">AI/Bigdata</a></li>
-						<li><a href="javascript:;">디지털 금융</a></li>
-						<li><a href="javascript:;">바우처/보조금</a></li>
-						<li><a href="javascript:;">ISP/BPR</a></li>
-						<li><a href="javascript:;">시스템통합</a></li>
-						<li><a href="javascript:;">산업별 특화</a></li>
-						<li><a href="javascript:;">국민행복몰</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;">Solution</a>
-					<ul>
-						<li><a href="javascript:;">AI</a></li>
-						<li><a href="javascript:;">Blockchain</a></li>
-						<li><a href="javascript:;">국고 보조금 관리시스템</a></li>
-						<li><a href="javascript:;">유가보조금 관리시스템</a></li>
-						<li><a href="javascript:;">주유 RFID 관리시스템</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;">Contact Us</a>
-					<ul>
-						<li><a href="javascript:;">문의하기</a></li>
-					</ul>
-				</li>
-			</ul>
-			<div class="hd_right">
-				<div class="hd_language">
-					<div class="item"><a href="javascript:;" class="active">KR</a></div>
-					<div class="item"><a href="javascript:;">EN</a></div>
-				</div>
-				<button type="button" id="nav_all_button">
-					<strong></strong>
-					<strong></strong>
-					<strong></strong>
-					<span class="sound_only">전체메뉴</span>
-				</button>
-			</div>
-		</div>
-	</div>
-	<!-- //header -->	
-
-	<!-- 전체메뉴 -->
-	<div id="nav_all_wrap">
-		<ul>
-			<li>
-				<a href="javascript:;" class="arrow"><span>Company</span></a>
-				<ul>
-					<li><a href="javascript:;">회사소개</a></li>
-					<li><a href="javascript:;">협력사</a></li>
-					<li><a href="javascript:;">채용안내</a></li>
-					<li><a href="javascript:;">오시는 길</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="javascript:;" class="arrow"><span>Business</span></a>
-				<ul>
-					<li><a href="javascript:;">AI/Bigdata</a></li>
-					<li><a href="javascript:;">디지털 금융</a></li>
-					<li><a href="javascript:;">바우처/보조금</a></li>
-					<li><a href="javascript:;">ISP/BPR</a></li>
-					<li><a href="javascript:;">시스템통합</a></li>
-					<li><a href="javascript:;">산업별 특화</a></li>
-					<li><a href="javascript:;">국민행복몰</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="javascript:;" class="arrow"><span>Solution</span></a>
-				<ul>
-					<li><a href="javascript:;">AI</a>
-						<ul>
-							<li><a href="javascript:;">AI융합 EAI 솔루션</a></li>
-							<li><a href="javascript:;">TS GenAI Gateway </a></li>
-							<li><a href="javascript:;">TS AI Chatbot</a></li>
-							<li><a href="javascript:;">TS AI Visons SR</a></li>
-							<li><a href="javascript:;">TS AI Visons 검사</a></li>
-						</ul>
-					</li>
-					<li><a href="javascript:;">Blockchain</a>
-						<ul>
-							<li><a href="javascript:;">TS Wallet</a></li>
-							<li><a href="javascript:;">TS Coin</a></li>
-						</ul>
-					</li>
-					<li><a href="javascript:;">국고 보조금 관리시스템</a></li>
-					<li><a href="javascript:;">유가보조금 관리시스템</a></li>
-					<li><a href="javascript:;">주유 RFID 관리시스템</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="javascript:;" class="arrow"><span>Contact Us</span></a>
-				<ul>
-					<li><a href="javascript:;">문의하기</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-
-
-    <div class="sub_top">
+<!--#include virtual="/include/head.asp"-->
+<!--#include virtual="/include/header.asp"-->
+<div class="sub_top">
         <div class="page_location scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_3">
-            <div class="item"> <a href="javascript:;" class="home">홈으로</a> </div>
-            <div class="item"> <a href="javascript:;">Solution</a> </div>
-            <div class="item"> <a href="javascript:;">AI</a> </div>
+            <div class="item"> <a href="/index.asp" class="home">홈으로</a> </div>
+            <div class="item"> <a href="/solution/ai.asp">Solution</a> </div>
+            <div class="item"> <a href="/solution/ai.asp">AI</a> </div>
         </div>
         <h2 class="scroll_reveal to_bottom reveal_sm reveal_once reveal_delay_5">AI</h2>
 
         <div class="local_nav">
-            <div class="item"><a href="javascript:;" class="active"><span>AI</span></a></div>
-            <div class="item"><a href="javascript:;"><span>Blockchain</span></a></div>
-            <div class="item"><a href="javascript:;"><span>국고 보조금 관리시스템</span></a></div>
-            <div class="item"><a href="javascript:;"><span>유가보조금 관리시스템</span></a></div>
-            <div class="item"><a href="javascript:;"><span>주유 RFID 관리시스템</span></a></div>
+            <div class="item"><a href="/solution/ai.asp" class="active"><span>AI</span></a></div>
+            <div class="item"><a href="/solution/blockchain.asp"><span>Blockchain</span></a></div>
+            <div class="item"><a href="/solution/treasury_subsidy.asp"><span>국고 보조금 관리시스템</span></a></div>
+            <div class="item"><a href="/solution/foreign_subsidy.asp"><span>유가보조금 관리시스템</span></a></div>
+            <div class="item"><a href="/solution/fuel_rfid.asp"><span>주유 RFID 관리시스템</span></a></div>
         </div>
     </div>
 
 	<div class="mobile_tab_nav">
-		<div class="item home"><a href="javascript:;">홈으로</a></div>
+		<div class="item home"><a href="/index.asp">홈으로</a></div>
 		<div class="item">
-			<a href="javascript:;"><span>Solution</span></a>
+			<a href="/solution/ai.asp"><span>Solution</span></a>
 			<ul>
-				<li><a href="javascript:;">Company</a></li>
-				<li><a href="javascript:;">Business</a></li>
-				<li><a href="javascript:;" class="active">Solution</a></li>
-				<li><a href="javascript:;">Blockchain</a></li>
-				<li><a href="javascript:;">Contact Us</a></li>
+				<li><a href="/company/company.asp">Company</a></li>
+				<li><a href="/business/ai_bigdata.asp">Business</a></li>
+				<li><a href="/solution/ai.asp" class="active">Solution</a></li>
+				<li><a href="/solution/blockchain.asp">Blockchain</a></li>
+				<li><a href="/contact/contact.asp">Contact Us</a></li>
 			</ul>
 		</div>
 		<div class="item">
-			<a href="javascript:;"><span>AI</span></a>
+			<a href="/solution/ai.asp"><span>AI</span></a>
 			<ul>
-				<li><a href="javascript:;" class="active">AI</a></li>
-				<li><a href="javascript:;">Blockchain</a></li>
-				<li><a href="javascript:;">국고 보조금 관리시스템</a></li>
-				<li><a href="javascript:;">유가보조금 관리시스템</a></li>
-				<li><a href="javascript:;">주유 RFID 관리시스템</a></li>
+				<li><a href="/solution/ai.asp" class="active">AI</a></li>
+				<li><a href="/solution/blockchain.asp">Blockchain</a></li>
+				<li><a href="/solution/treasury_subsidy.asp">국고 보조금 관리시스템</a></li>
+				<li><a href="/solution/foreign_subsidy.asp">유가보조금 관리시스템</a></li>
+				<li><a href="/solution/fuel_rfid.asp">주유 RFID 관리시스템</a></li>
 			</ul>
 		</div>
 	</div>
@@ -209,8 +50,8 @@
                     <div class="title">AI 혁신으로 <br class="pc"/>미래 비즈니스의 가치를 창조합니다.</div>
                     <p>우리의 AI 솔루션은 데이터 분석, 예측 모델링, 자동화를 통해 기업의 운영 효율성을 극대화합니다.<br/> 빠르게 진화하는 기술 환경 속에서 경쟁력을 높이고 미래 비즈니스의 혁신을 주도할 수 있도록 설계되었습니다.</p>
                 </div>
-                <div class="bg scroll_reveal to_left show_center pc" style="background-image:url('../../assets/images/content/sub_visual_ai.jpg')"></div>
-                <div class="bg scroll_reveal to_left show_center mobile" style="background-image:url('../../assets/images/content/sub_visual_ai_mobile.jpg')"></div>
+                <div class="bg scroll_reveal to_left show_center pc" style="background-image:url('/assets/images/content/sub_visual_ai.jpg')"></div>
+                <div class="bg scroll_reveal to_left show_center mobile" style="background-image:url('/assets/images/content/sub_visual_ai_mobile.jpg')"></div>
             </div>
 		</div>
 
@@ -226,20 +67,20 @@
                 </div>
             </div>
             <div class="tab_wrap_nav_mobile sticky_btns mobile">
-                <a href="javascript:;"><span>AI 융합 EAI 솔루션</span></a>
+                <a href="#ai-eai"><span>AI 융합 EAI 솔루션</span></a>
                 <ul>
-                    <li><a href="javascript:;">AI 융합 EAI 솔루션</a></li>
-                    <li><a href="javascript:;">TS GenAI Gateway</a></li>
-                    <li><a href="javascript:;">TS AI Chatbot</a></li>
-                    <li><a href="javascript:;">TS AI Vision SR</a></li>
-                    <li><a href="javascript:;">TS AI Vision 검사</a></li>
+                    <li><a href="#ai-eai">AI 융합 EAI 솔루션</a></li>
+                    <li><a href="#genai-gateway">TS GenAI Gateway</a></li>
+                    <li><a href="#ai-chatbot">TS AI Chatbot</a></li>
+                    <li><a href="#ai-visions-sr">TS AI Vision SR</a></li>
+                    <li><a href="#ai-visions-inspection">TS AI Vision 검사</a></li>
                 </ul>
             </div>
 
             <div class="tab_contents">
 
                 <!-- AI 융합 EAI 솔루션 -->
-                <div class="tab_content">
+                <div class="tab_content" id="ai-eai">
                     <div class="sub_section scroll_reveal to_bottom show_center">
                         <div class="container">
                             <div class="title_area">
@@ -357,22 +198,22 @@
                                 <div class="item">
                                     <div class="tit">제조업</div>
                                     <p>생산 및 품질 관리 시스템을 연동하여 AI 기반 생산 최적화를 이룹니다.</p>
-                                    <div class="img" style="background-image: url('../../assets/images/content/dot_img_items_ai1.jpg');"></div>
+                                    <div class="img" style="background-image: url('/assets/images/content/dot_img_items_ai1.jpg');"></div>
                                 </div>
                                 <div class="item">
                                     <div class="tit">금융업</div>
                                     <p>핵심 뱅킹 시스템과 고객 관리 시스템을 통합하여 리스크 분석 및 서비스 품질을 향상시킵니다.</p>
-                                    <div class="img" style="background-image: url('../../assets/images/content/dot_img_items_ai2.jpg');"></div>
+                                    <div class="img" style="background-image: url('/assets/images/content/dot_img_items_ai2.jpg');"></div>
                                 </div>
                                 <div class="item">
                                     <div class="tit">유통업</div>
                                     <p>재고 관리와 판매 시스템을 실시간으로 연동하여 수요 예측 및 재고를 최적화합니다.</p>
-                                    <div class="img" style="background-image: url('../../assets/images/content/dot_img_items_ai3.jpg');"></div>
+                                    <div class="img" style="background-image: url('/assets/images/content/dot_img_items_ai3.jpg');"></div>
                                 </div>
                                 <div class="item">
                                     <div class="tit">헬스케어</div>
                                     <p>병원정보시스템(HIS)과 의료장비를 통합하여 환자 데이터 분석 및 진단을 지원합니다.</p>
-                                    <div class="img" style="background-image: url('../../assets/images/content/dot_img_items_ai4.jpg');"></div>
+                                    <div class="img" style="background-image: url('/assets/images/content/dot_img_items_ai4.jpg');"></div>
                                 </div>
                             </div>
                         </div>
@@ -380,7 +221,7 @@
                 </div>
 
                 <!-- TS GenAI Gateway -->
-                <div class="tab_content">
+                <div class="tab_content" id="genai-gateway">
                     <div class="sub_section scroll_reveal to_bottom show_center">
                         <div class="container">
                             <div class="title_area">
@@ -428,15 +269,15 @@
                                 <div class="item before">
                                     <div class="tit">TS GenAI Gateway 도입 전</div>
                                     <div class="img">
-                                        <img src="../../assets/images/content/diagram_genai_before.png" class="pc" alt="TS GenAI Gateway 도입 전: 개발팀, 마케팅팀, 영업팀이 각각 OpenAI·Claude·Gemini에 직접 연결되어 복잡하게 연동된 구조">
-                                        <img src="../../assets/images/content/diagram_genai_before_mobile.png" class="mobile" alt="TS GenAI Gateway 도입 전: 개발팀, 마케팅팀, 영업팀이 각각 OpenAI·Claude·Gemini에 직접 연결되어 복잡하게 연동된 구조">
+                                        <img src="/assets/images/content/diagram_genai_before.png" class="pc" alt="TS GenAI Gateway 도입 전: 개발팀, 마케팅팀, 영업팀이 각각 OpenAI·Claude·Gemini에 직접 연결되어 복잡하게 연동된 구조">
+                                        <img src="/assets/images/content/diagram_genai_before_mobile.png" class="mobile" alt="TS GenAI Gateway 도입 전: 개발팀, 마케팅팀, 영업팀이 각각 OpenAI·Claude·Gemini에 직접 연결되어 복잡하게 연동된 구조">
                                     </div>
                                 </div>
                                 <div class="item after">
                                     <div class="tit">TS GenAI Gateway 도입 후</div>
                                     <div class="img">
-                                        <img src="../../assets/images/content/diagram_genai_after.png" class="pc"  alt="TS GenAI Gateway 도입 후: 개발팀, 마케팅팀, 영업팀이 Gateway를 통해 OpenAI·Claude·Gemini를 일원화하여 간단하게 연동한 구조">
-                                        <img src="../../assets/images/content/diagram_genai_after_mobile.png" class="mobile"  alt="TS GenAI Gateway 도입 후: 개발팀, 마케팅팀, 영업팀이 Gateway를 통해 OpenAI·Claude·Gemini를 일원화하여 간단하게 연동한 구조">
+                                        <img src="/assets/images/content/diagram_genai_after.png" class="pc"  alt="TS GenAI Gateway 도입 후: 개발팀, 마케팅팀, 영업팀이 Gateway를 통해 OpenAI·Claude·Gemini를 일원화하여 간단하게 연동한 구조">
+                                        <img src="/assets/images/content/diagram_genai_after_mobile.png" class="mobile"  alt="TS GenAI Gateway 도입 후: 개발팀, 마케팅팀, 영업팀이 Gateway를 통해 OpenAI·Claude·Gemini를 일원화하여 간단하게 연동한 구조">
                                     </div>
                                 </div>
                             </div>
@@ -504,7 +345,7 @@
                 </div>
 
                 <!-- TS AI Chatbot -->
-                <div class="tab_content">
+                <div class="tab_content" id="ai-chatbot">
                     <div class="sub_section scroll_reveal to_bottom show_center">
                         <div class="container">
                             <div class="title_area">
@@ -560,15 +401,15 @@
                                 <div class="item before">
                                     <div class="tit">TS AI Chatbot 도입 전</div>
                                     <div class="img">
-                                        <img src="../../assets/images/content/diagram_chatbot_before.png" class="pc" alt="TS AI Chatbot 도입 전: 직원 문의 → 여러 폴더 검색 → 관련 부서 문의 → 지연된 답변으로 이어지는 비효율적 업무 흐름">
-                                        <img src="../../assets/images/content/diagram_chatbot_before_mobile.png" class="mobile" alt="TS AI Chatbot 도입 전: 직원 문의 → 여러 폴더 검색 → 관련 부서 문의 → 지연된 답변으로 이어지는 비효율적 업무 흐름">
+                                        <img src="/assets/images/content/diagram_chatbot_before.png" class="pc" alt="TS AI Chatbot 도입 전: 직원 문의 → 여러 폴더 검색 → 관련 부서 문의 → 지연된 답변으로 이어지는 비효율적 업무 흐름">
+                                        <img src="/assets/images/content/diagram_chatbot_before_mobile.png" class="mobile" alt="TS AI Chatbot 도입 전: 직원 문의 → 여러 폴더 검색 → 관련 부서 문의 → 지연된 답변으로 이어지는 비효율적 업무 흐름">
                                     </div>
                                 </div>
                                 <div class="item after">
                                     <div class="tit">TS AI Chatbot 도입 후</div>
                                     <div class="img">
-                                        <img src="../../assets/images/content/diagram_chatbot_after.png" class="pc"  alt="TS AI Chatbot 도입 후: 직원 문의 → TS Chatbot(RAG) → 사내문서·매뉴얼·정책 기반 검색 → 즉시 정확한 답변 제공하는 효율적인 업무 흐름">
-                                        <img src="../../assets/images/content/diagram_chatbot_after_mobile.png" class="mobile"  alt="TS AI Chatbot 도입 후: 직원 문의 → TS Chatbot(RAG) → 사내문서·매뉴얼·정책 기반 검색 → 즉시 정확한 답변 제공하는 효율적인 업무 흐름">
+                                        <img src="/assets/images/content/diagram_chatbot_after.png" class="pc"  alt="TS AI Chatbot 도입 후: 직원 문의 → TS Chatbot(RAG) → 사내문서·매뉴얼·정책 기반 검색 → 즉시 정확한 답변 제공하는 효율적인 업무 흐름">
+                                        <img src="/assets/images/content/diagram_chatbot_after_mobile.png" class="mobile"  alt="TS AI Chatbot 도입 후: 직원 문의 → TS Chatbot(RAG) → 사내문서·매뉴얼·정책 기반 검색 → 즉시 정확한 답변 제공하는 효율적인 업무 흐름">
                                     </div>
                                 </div>
                             </div>
@@ -629,7 +470,7 @@
                 </div>
 
                 <!-- TS AI Vision SR -->
-                <div class="tab_content">
+                <div class="tab_content" id="ai-visions-sr">
                     <div class="sub_section scroll_reveal to_bottom show_center">
                         <div class="container">
                             <div class="title_area">
@@ -726,7 +567,7 @@
                 </div>
 
                 <!-- TS AI Vision 검사 -->
-                <div class="tab_content">
+                <div class="tab_content" id="ai-visions-inspection">
                     <div class="sub_section scroll_reveal to_bottom show_center">
                         <div class="container">
                             <div class="title_area">
@@ -774,15 +615,15 @@
                                 <div class="item before">
                                     <div class="tit">TS AI Vision 검사 도입 전</div>
                                     <div class="img">
-                                        <img src="../../assets/images/content/diagram_vision_before.png" class="pc" alt="TS AI Vision 검사 도입 전: 직원 문의 후 여러 폴더 검색과 관련 부서 문의를 거쳐 지연된 답변이 발생하는 비효율적 처리 과정">
-                                        <img src="../../assets/images/content/diagram_vision_before_mobile.png" class="mobile" alt="TS AI Vision 검사 도입 전: 직원 문의 후 여러 폴더 검색과 관련 부서 문의를 거쳐 지연된 답변이 발생하는 비효율적 처리 과정">
+                                        <img src="/assets/images/content/diagram_vision_before.png" class="pc" alt="TS AI Vision 검사 도입 전: 직원 문의 후 여러 폴더 검색과 관련 부서 문의를 거쳐 지연된 답변이 발생하는 비효율적 처리 과정">
+                                        <img src="/assets/images/content/diagram_vision_before_mobile.png" class="mobile" alt="TS AI Vision 검사 도입 전: 직원 문의 후 여러 폴더 검색과 관련 부서 문의를 거쳐 지연된 답변이 발생하는 비효율적 처리 과정">
                                     </div>
                                 </div>
                                 <div class="item after">
                                     <div class="tit">TS AI Vision 검사 도입 후</div>
                                     <div class="img">
-                                        <img src="../../assets/images/content/diagram_vision_after.png" class="pc"  alt="TS AI Vision 도입 후: 직원 문의 시 TS Vision이 사내문서·매뉴얼·정책을 기반으로 즉시 정확한 답변을 제공하는 자동화된 처리 과정">
-                                        <img src="../../assets/images/content/diagram_vision_after_mobile.png" class="mobile"  alt="TS AI Vision 도입 후: 직원 문의 시 TS Vision이 사내문서·매뉴얼·정책을 기반으로 즉시 정확한 답변을 제공하는 자동화된 처리 과정">
+                                        <img src="/assets/images/content/diagram_vision_after.png" class="pc"  alt="TS AI Vision 도입 후: 직원 문의 시 TS Vision이 사내문서·매뉴얼·정책을 기반으로 즉시 정확한 답변을 제공하는 자동화된 처리 과정">
+                                        <img src="/assets/images/content/diagram_vision_after_mobile.png" class="mobile"  alt="TS AI Vision 도입 후: 직원 문의 시 TS Vision이 사내문서·매뉴얼·정책을 기반으로 즉시 정확한 답변을 제공하는 자동화된 처리 과정">
                                     </div>
                                 </div>
                             </div>
@@ -850,32 +691,4 @@
 	</div>
 	<!-- //content -->
 
-
-	<div id="footer">
-		<div class="ft_inner">
-			<div class="ft_top">
-				<div class="ft_logo">
-					<img src="../../assets/images/common/ft_logo.png" alt="TRIONSOFT">
-				</div>
-				<div id="to_top_wrap">
-					<button type="button" id="to_top"><span>TOP</span></button>
-				</div>
-			</div>
-			<div class="ft_bottom">
-				<div class="ft_info">
-					<div class="info ads">서울특별시 강남구 강남대로 566, 5층 (논현동, 신영와코루빌딩) 트라이언소프트</div>
-					<div class="info">TEL : 02-3444-6327</div>
-					<div class="info">FAX : 02-3444-6329</div>
-					<div class="info">E-MAIL : trionsoft@trionsoft.co.kr</div>
-				</div> 
-				<div class="ft_copy">COPYRIGHTⒸTRIONSOFT INC. ALL RIGHTS RESERVED.</div>
-			</div>
-		</div>
-	</div>
-</div>
-<script src="../../assets/js/common.js"></script>
-<script>
-
-</script>
-</body>
-</html>
+<!--#include virtual="/include/footer.asp"-->
